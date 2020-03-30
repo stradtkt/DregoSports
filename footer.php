@@ -14,19 +14,37 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'drego-sports' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'drego-sports' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'drego-sports' ), 'drego-sports', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-2 mt-3">
+					<h3 class="text-center">Menu</h3>
+					<ul>
+						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link">Home</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link">About</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link">Privacy Policy</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-12 col-md-2 mt-3">
+					<h3 class="text-center">Explore</h3>
+					<ul>
+						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link">Fantasy</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link">Betting</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link">Top Picks</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link">Top Sleepers</a></li>
+					</ul>
+				</div>
+				<div class="col-12 col-md-4"></div>
+				<div class="col-12 col-md-4 text-center mt-3">
+					<p><small>&copy; Drego Sports, 2020.</small></p>
+					<p>
+						<a href=""><i class="fab fa-youtube"></i></a>
+						<a href=""><i class="fab fa-facebook-square"></i></a>
+						<a href=""><i class="fab fa-linkedin"></i></a>
+					</p>
+				</div>
+			</div>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
