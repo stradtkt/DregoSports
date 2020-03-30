@@ -986,3 +986,43 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+
+.fantasy {
+	background: url('assets/img/fantasy.png');
+	background-size: cover;
+	min-height: 50vh;
+	margin: 0 10px;
+}
+
+.betting {
+	background: url('assets/img/nfl-football-betting.webp');
+	background-size: cover;
+	min-height: 75vh;
+	width: 100%;
+	margin: 0 10px;
+}
+
+.overlay {
+	position: absolute;
+	height: 100%;
+	width: 95%;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.betting .overlay a,
+.fantasy .overlay a {
+	color: white;
+	text-decoration: none;
+	justify-content: center;
+	align-content: center;
+	margin: 10% auto;
+}
+
+.fantasy, .betting, .overlay {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}

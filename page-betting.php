@@ -7,7 +7,9 @@ get_header();
 
 <section>
     <div class="container">
-        <div class="row"></div>
+        <div class="row">
+            
+        </div>
     </div>
 </section>
 

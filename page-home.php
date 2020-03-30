@@ -10,15 +10,17 @@ get_header();
         <div class="row">
             <div class="col-6">
                 <div class="fantasy">
-                    <div class="overlay">
-                        <a href="" disabled class="btn btn-info btn-round">Coming Soon</a>
+                    <div class="overlay d-flex flex-column">
+                        <h1 class="text-center text-white mt-auto">Fantasy</h1>
+                        <a href="" disabled class="btn btn-danger btn-round mt-auto">Coming Soon</a>
                     </div>
                 </div>
             </div>
             <div class="col-6">
                 <div class="betting">
-                    <div class="overlay">
-                        <a href="" class="btn btn-info btn-round">Enter</a>
+                    <div class="overlay d-flex flex-column">
+                        <h1 class="text-center text-white mt-auto">Betting</h1>
+                        <a href="" class="btn btn-danger btn-round mt-auto">Enter</a>
                     </div>
                 </div>
             </div>
