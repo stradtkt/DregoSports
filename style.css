@@ -53,6 +53,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+ @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 
 html {
 	line-height: 1.15; /* 1 */
@@ -993,14 +994,15 @@ html, body {
 
 
 .fantasy {
-	background: url('assets/img/fantasy.png');
+	background: url('assets/img/tickets.jpeg');
 	background-size: cover;
-	min-height: 50vh;
+	min-height: 75vh;
+	width: 100%
 	margin: 0 10px;
 }
 
 .betting {
-	background: url('assets/img/nfl-football-betting.webp');
+	background: url('assets/img/money.jpeg');
 	background-size: cover;
 	min-height: 75vh;
 	width: 100%;
@@ -1021,6 +1023,13 @@ html, body {
 	justify-content: center;
 	align-content: center;
 	margin: 10% auto;
+	font-size: 25px;
+	font-family: 'Righteous', cursive;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
 }
 
 .fantasy, .betting, .overlay {
@@ -1031,6 +1040,11 @@ html, body {
 	-o-border-radius: 5px;
 }
 
+.betting h1,
+.fantasy h1 {
+	font-family: 'Righteous', cursive;
+	font-size: 75px;
+}
 
 .site-footer {
 	background: #222;
@@ -1049,4 +1063,77 @@ html, body {
 }
 .site-footer ul li a {
 	color: white;
+	
+}
+
+.fab.fa-facebook-square,
+.fab.fa-youtube,
+.fab.fa-linkedin {
+	font-size: 25px;
+}
+
+.fab.fa-linkedin {
+	color: #0e76a8;
+}
+
+.fab.fa-youtube {
+	color: red;
+}
+
+.fab.fa-facebook-square {
+	color: #3b5998;
+}
+.feature-cards p > i {
+	font-size: 25px;
+}
+
+.nfl-betting {
+	background: linear-gradient(120deg, tomato, darkorange);
+	width: 100%;
+	height: 20vh;
+	color: white;
+	text-align: center;
+	margin: 10px 0;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.mlb-betting a,
+.nba-betting a,
+.nfl-betting a {
+	cursor: pointer;
+}
+.mlb-betting h2,
+.nba-betting h2,
+.nfl-betting h2 {
+	align-content: center;
+	justify-content: center;
+}
+.mlb-betting {
+	background: linear-gradient(120deg, dodgerblue, navy);
+	width: 100%;
+	height: 20vh;
+	color: white;
+	text-align: center;
+	margin: 10px 0;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.nba-betting {
+	background: linear-gradient(120deg, darkgreen, lightgreen);
+	width: 100%;
+	height: 20vh;
+	color: white;
+	text-align: center;
+	margin: 10px 0;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
 }
