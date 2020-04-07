@@ -26,23 +26,24 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'drego-sports' ); ?></a>
 
 	<header id="masthead" class="site-header">
-	<nav class="navbar navbar-expand-lg bg-danger">
-  <div class="container">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-	  <?php 
-	 wp_nav_menu(array(
-		 'theme_location' => 'menu-1',
-		 'menu_id' => 'primary-menu',
-		 'menu_class' => 'navbar-nav',
-	 ));
-	  ?>
-    </div>
-  </div>
-</nav>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+				<a class="navbar-brand" href="#">Drego Sports</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+					<span class="navbar-toggler-bar bar1"></span>
+					<span class="navbar-toggler-bar bar2"></span>
+					<span class="navbar-toggler-bar bar3"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<?php 
+					wp_nav_menu(array(
+						'theme_location' => 'menu-1',
+						'menu_id' => 'primary-menu',
+						'menu_class' => 'navbar-nav',
+					));
+					?>
+				</div>
+			</div>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 

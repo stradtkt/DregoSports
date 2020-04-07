@@ -992,56 +992,27 @@ html, body {
 	height: 100%;
 }
 
-
-.fantasy {
-	background: url('assets/img/tickets.jpeg');
-	background-size: cover;
-	min-height: 75vh;
-	width: 100%
-	margin: 0 10px;
+nav {
+	background: rgba(0,0,0,0.8);
 }
 
-.betting {
+#header-main {
 	background: url('assets/img/money.jpeg');
 	background-size: cover;
 	min-height: 75vh;
 	width: 100%;
-	margin: 0 10px;
 }
 
 .overlay {
-	position: absolute;
+	position: relative;
+	top: 0;
+	left: 10px;
 	height: 100%;
-	width: 95%;
-	background: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	background: linear-gradient(120deg #222, #777) !important;
 }
 
-.betting .overlay a,
-.fantasy .overlay a {
-	color: white;
-	text-decoration: none;
-	justify-content: center;
-	align-content: center;
-	margin: 10% auto;
-	font-size: 25px;
-	font-family: 'Righteous', cursive;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
-}
-
-.fantasy, .betting, .overlay {
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
-}
-
-.betting h1,
-.fantasy h1 {
+.betting h1 {
 	font-family: 'Righteous', cursive;
 	font-size: 75px;
 }
@@ -1087,53 +1058,71 @@ html, body {
 	font-size: 25px;
 }
 
-.nfl-betting {
-	background: linear-gradient(120deg, tomato, darkorange);
-	width: 100%;
-	height: 20vh;
+#plans .fa-dollar-sign {
+	color: lightgreen;
+	text-shadow: 1px 3px 3px #222;
+}
+#plans p {
+	font-size: 30px;
+}
+
+#plans hr {
+	width: 50%;
+	height: 1.5px;
+	background-color: #222;
+}
+
+#plans .card-body ul {
+	list-style: none;
+}
+
+#plans .card-body ul li:before {
+	content: '✓';
+}
+
+#plans .card-body ul li {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#plans .card-body .btn {
 	color: white;
-	text-align: center;
-	margin: 10px 0;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
+	margin: 0 auto;
+	display: block;
 }
-.mlb-betting a,
-.nba-betting a,
-.nfl-betting a {
-	cursor: pointer;
+
+#contact-section .card-header {
+	padding: 10px;
 }
-.mlb-betting h2,
-.nba-betting h2,
-.nfl-betting h2 {
-	align-content: center;
-	justify-content: center;
+
+#contact-main {
+	background: url('assets/img/project10.jpg') 50% 0 repeat fixed;
+	background-size: cover;
+	min-height: 300px;
 }
-.mlb-betting {
-	background: linear-gradient(120deg, dodgerblue, navy);
-	width: 100%;
-	height: 20vh;
-	color: white;
-	text-align: center;
-	margin: 10px 0;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
-}
-.nba-betting {
-	background: linear-gradient(120deg, darkgreen, lightgreen);
-	width: 100%;
-	height: 20vh;
-	color: white;
-	text-align: center;
-	margin: 10px 0;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
+
+@media screen and (min-width: 320px) {
+	.overlay {
+		width: 100%;
+		position: relative;
+		top: 0;
+		left: 10px;
+		background: linear-gradient(120deg #222, #777) !important;
+	}
+	.betting {
+		width: 100%;
+		align-content: center;
+		justify-content: center;
+	}
+	.betting h1 {
+		font-size: 30px;
+	}
+	.betting h1,
+	.betting p {
+		position: relative;
+		top: 100px;
+	}
+	nav {
+		margin: 0 !important;
+		padding: 0;
+	}
 }
