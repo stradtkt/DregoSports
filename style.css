@@ -994,6 +994,8 @@ html, body {
 
 nav {
 	background: rgba(0,0,0,0.8);
+	margin: 0 !important;
+	padding: 0;
 }
 
 #header-main {
@@ -1003,18 +1005,15 @@ nav {
 	width: 100%;
 }
 
-.overlay {
-	position: relative;
-	top: 0;
-	left: 10px;
-	height: 100%;
-	width: 100%;
-	background: linear-gradient(120deg #222, #777) !important;
-}
-
 .betting h1 {
 	font-family: 'Righteous', cursive;
 	font-size: 75px;
+}
+
+.betting h1,
+.betting p {
+	position: relative;
+	top: 100px;
 }
 
 .site-footer {
@@ -1029,12 +1028,12 @@ nav {
 }
 .site-footer ul li {
 	width: 200px;
-	position: relative;
-	right: 50px;
 }
 .site-footer ul li a {
 	color: white;
-	
+	text-align: center;
+	position: relative;
+	right: 115px;
 }
 
 .fab.fa-facebook-square,
@@ -1078,6 +1077,7 @@ nav {
 
 #plans .card-body ul li:before {
 	content: '✓';
+	color: darkgreen;
 }
 
 #plans .card-body ul li {
@@ -1100,19 +1100,43 @@ nav {
 	min-height: 300px;
 }
 
-@media screen and (min-width: 320px) {
-	.overlay {
-		width: 100%;
-		position: relative;
-		top: 0;
-		left: 10px;
-		background: linear-gradient(120deg #222, #777) !important;
-	}
-	.betting {
-		width: 100%;
-		align-content: center;
-		justify-content: center;
-	}
+#contact-main h1 {
+	position: relative;
+	top: 100px;
+	color: white;
+}
+
+#nf-field-8 {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	background: #0099dd;
+	border: 0;
+	color: white;
+	box-shadow: 1px 3px 10px #222;
+	-webkit-box-shadow: 1px 3px 10px #222;
+	-moz-box-shadow: 1px 3px 10px #222;
+	-ms-box-shadow: 1px 3px 10px #222;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.hr {
+	width: 200px;
+	height: 1px;
+	margin: 0 auto;
+	background: #222;
+}
+
+.fa-star {
+	color: gold;
+	text-shadow: 1px 2px 3px #222;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 360px) {
 	.betting h1 {
 		font-size: 30px;
 	}
@@ -1124,5 +1148,9 @@ nav {
 	nav {
 		margin: 0 !important;
 		padding: 0;
+	}
+	.site-footer ul li a {
+		text-align: center;
+		right: 55px;
 	}
 }
