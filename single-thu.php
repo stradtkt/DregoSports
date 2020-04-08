@@ -25,12 +25,12 @@ get_header();
 
         <div class="row">
             <div class="col-12 col-md-6">
-                <?php the_field('home_img'); ?>
+                <img src="<?php the_field('home_img'); ?>" alt="<?php the_title(); ?>">
                 <?php the_field('home_name'); ?>
                 <?php the_field('home_num'); ?>
             </div>
             <div class="col-12 col-md-6">
-				<?php the_field('away_img'); ?>
+                <img src="<?php the_field('away_img'); ?>" alt="<?php the_title(); ?>">
                 <?php the_field('away_name'); ?>
                 <?php the_field('away_num'); ?>
             </div>

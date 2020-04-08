@@ -54,6 +54,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
  @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Oswald&display=swap');
 
 html {
 	line-height: 1.15; /* 1 */
@@ -1097,12 +1098,15 @@ nav button {
 	font-size: 25px;
 }
 
-#plans .fa-dollar-sign {
-	color: lightgreen;
-	text-shadow: 1px 3px 3px #222;
+#plans h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
 }
+
 #plans p {
 	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
 }
 
 #plans hr {
@@ -1115,19 +1119,67 @@ nav button {
 	list-style: none;
 }
 
-#plans .card-body ul li:before {
+/* #plans .card-body ul li:before {
 	content: '✓';
 	color: darkgreen;
-}
+	position: relative;
+	font-size: 30px;
+} */
 
 #plans .card-body ul li {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'IM Fell French Canon SC', serif;
+	position: relative;
+	text-align: center;
+	right: 40px;
+	font-size: 18px;
 }
 
 #plans .card-body .btn {
 	color: white;
 	margin: 0 auto;
 	display: block;
+	width: 50%;
+	background: #0099dd;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+#plans .plans-hr {
+	font-family: "Font Awesome 5 Free";
+	height: 0;
+	margin: 20px auto;
+	clear: both;
+	display: block;
+	width: 0%;
+	position: relative;
+	left: 9%;
+	top: 40px;
+	transform:scale(2)
+}
+
+#plans .plans-hr:before {
+	content: " ";
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	border-radius: 5px;
+	left: 0;
+	bottom: -3px;
+}
+
+#plans .plans-hr:after {
+	content: "\f005";
+	color: gold;
+	display:block;
+	position:absolute;
+	left:68%;
+	height:20px;
+	width:20px;
+	margin:-25px 0 0 -25px;
+	border-radius:50px;
+	overflow:hidden;
+	box-shadow: 0 0 0 1px #eef, 0 0 5px;
 }
 
 #contact-section .card-header {
@@ -1140,6 +1192,21 @@ nav button {
 	min-height: 300px;
 }
 
+#login-main {
+	background: url('assets/img/project12.jpg') 50% 0 repeat fixed;
+	background-size: cover;
+	min-height: 300px;
+}
+
+#register-main {
+	background: url('assets/img/project13.jpg') 50% 0 repeat fixed;
+	background-size: cover;
+	min-height: 300px;
+}
+#thursday-main h1,
+#archive-thu-main h1,
+#register-main h1,
+#login-main h1,
 #contact-main h1 {
 	position: relative;
 	top: 100px;
@@ -1165,16 +1232,146 @@ nav button {
 }
 
 .hr {
-	width: 200px;
-	height: 1px;
-	margin: 0 auto;
-	background: #222;
+	margin: 0 0 20px 0;
+	border: 0;
+	text-align: center;
+	position: relative;
+	bottom: 40px;
+}
+
+.hr:before {
+	content: "\2022 \2022 \2022";
+    font-size: 50px;
+    color: #0099dd;
 }
 
 .fa-star {
 	color: gold;
 	text-shadow: 1px 2px 3px #222;
 }
+
+.nav-link {
+	color: white !important;
+	text-decoration: none !important;
+}
+
+input[type="text"].input,
+input[type="password"].input {
+	display: block;
+	margin: 0 auto;
+}
+.login-remember,
+.login-username,
+.login-password {
+	text-align: center;
+}
+#wp-submit {
+	display: block;
+	background: #0099dd;
+	color: white;
+	padding: 10px;
+	margin: 0 auto;
+	width: 40%;
+}
+#register-section .card-header h3,
+#login-section .card-header h3 {
+	text-align: center;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+.input-password,
+.input-text {
+	display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.panel-default>.panel-heading {
+	color: #333;
+	background-color: #fff;
+	border-color: #e4e5e7;
+	padding: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  .panel-default>.panel-heading a {
+	display: block;
+	padding: 10px 15px;
+	color: #222;
+	text-decoration: none;
+
+  }
+  
+  .panel-default>.panel-heading a:after {
+	content: "";
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	float: right;
+	transition: transform .25s linear;
+	-webkit-transition: -webkit-transform .25s linear;
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="true"] {
+	background-color: #eee;
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="true"]:after {
+	content: "\2212";
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="false"]:after {
+	content: "\002b";
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+  }
+
+  .ur-submit-button {
+	display: block;
+	background: #0099dd !important;
+	color: white;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	margin: 0 auto !important;
+	width: 50%;
+}
+
+#thursday-main {
+	background: url('assets/img/project14.jpg') 50% 0 repeat fixed;
+	background-size: cover;
+	min-height: 300px;
+}
+#archive-thu-main {
+	background: url('assets/img/project15.jpg') 50% 0 repeat fixed;
+	background-size: cover;
+	min-height: 300px;
+}
+
 
 @media only screen and (min-width: 320px) and (max-width: 360px) {
 	.bg-dark.p-4 {

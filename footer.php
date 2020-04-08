@@ -21,7 +21,6 @@
 					<ul>
 						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link">Home</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/about'); ?>" class="nav-link">About</a></li>
-						<li class="nav-item"><a href="<?php echo site_url('/join-now'); ?>" class="nav-link">Join</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/privacy-policy'); ?>" class="nav-link">Privacy Policy</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/contact'); ?>" class="nav-link">Contact</a></li>
 					</ul>
@@ -29,9 +28,10 @@
 				<div class="col-12 col-md-2 mt-3">
 					<h3 class="text-center">Explore</h3>
 					<ul>
+						<li class="nav-item"><a href="<?php echo site_url('/join-now'); ?>" class="nav-link">Join</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/login'); ?>" class="nav-link">Login</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/register'); ?>" class="nav-link">Register</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/betting'); ?>" class="nav-link">Betting</a></li>
-						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link">Top Picks</a></li>
-						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link">Top Sleepers</a></li>
 					</ul>
 				</div>
 				<div class="col-12 col-md-4"></div>
