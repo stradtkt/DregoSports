@@ -29,7 +29,7 @@
 		<div class="pos-f-t">
   			<div class="collapse" id="navbarToggleExternalContent">
     			<div class="bg-dark p-4 text-center">
-      				<h5 class="text-white h4">Drego Sports</h5>
+      				<h1 class="h1"><span class="D">D</span><small class="logo-end"> rego</small> <span class="S">S</span><small class="logo-end"> ports</small></h1>
       				<ul class="navbar-nav one">
 						<li class="nav-item">
 							<a href="<?php echo site_url('/'); ?>" class="nav-link text-white">Home</a>
@@ -46,8 +46,8 @@
 					</ul>
     			</div>
   			</div>
-  			<nav class="navbar fixed-top">
-				<a href="" class="navbar-brand">Drego Sports</a>
+  			<nav class="navbar">
+				<a href="" class="navbar-brand text-black">Drego Sports</a>
     			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-bar bar1"></span>
 					<span class="navbar-toggler-bar bar2"></span>

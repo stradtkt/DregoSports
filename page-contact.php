@@ -9,7 +9,9 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col col-md-12">
-                <h1 class="text-left"><?php the_title(); ?></h1>
+                <div class="betting">
+                    <h1 class="text-left"><?php the_title(); ?></h1>
+                </div>
             </div>
         </div>
     </div>
@@ -21,7 +23,7 @@ get_header();
             <div class="col-12 col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="text-left">Contact Us About Anything</h3>
+                        <h3 class="text-left">Contact Drego Sports</h3>
                     </div>
                     <div class="card-body">
                         <?php 

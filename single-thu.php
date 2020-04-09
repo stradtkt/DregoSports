@@ -5,17 +5,19 @@ get_header();
 
 
 
-<section id="archive-thu-main">
+<section id="single-thursday-main">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="text-left"><?php the_title(); ?></h1>
+                <div class="betting">
+                    <h1 class="text-left">Thursday: <?php the_title(); ?></h1>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<section id="login-section" class="mt-5 mb-5">
+<section id="single-thursday-section" class="mt-5 mb-5">
     <div class="container">
         <?php 
         
