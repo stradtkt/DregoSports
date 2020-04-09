@@ -23,16 +23,18 @@ get_header();
             while(have_posts()) {
                 the_post(); ?>
 
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <img src="<?php the_field('home_img'); ?>" alt="<?php the_title(); ?>">
-                <?php the_field('home_name'); ?>
-                <?php the_field('home_num'); ?>
-            </div>
-            <div class="col-12 col-md-6">
-                <img src="<?php the_field('away_img'); ?>" alt="<?php the_title(); ?>">
-                <?php the_field('away_name'); ?>
-                <?php the_field('away_num'); ?>
+        <div class="card card-body">
+            <div class="row">
+                <div class="col-12 col-md-6 text-right">
+                    <img src="<?php the_field('home_img'); ?>" alt="<?php the_title(); ?>" class="matchup-img home">
+                    <span class="name"><?php the_field('home_name'); ?></span>
+                    <span class="num"><?php the_field('home_num'); ?></span>
+                </div>
+                <div class="col-12 col-md-6">
+                    <span class="num"><?php the_field('away_num'); ?></span>
+                    <span class="name"><?php the_field('away_name'); ?></span>
+                    <img src="<?php the_field('away_img'); ?>" alt="<?php the_title(); ?>" class="matchup-img">
+                </div>
             </div>
         </div>
 

@@ -30,13 +30,19 @@
   			<div class="collapse" id="navbarToggleExternalContent">
     			<div class="bg-dark p-4 text-center">
       				<h5 class="text-white h4">Drego Sports</h5>
-      				<ul class="navbar-nav">
+      				<ul class="navbar-nav one">
 						<li class="nav-item">
 							<a href="<?php echo site_url('/'); ?>" class="nav-link text-white">Home</a>
 							<a href="<?php echo site_url('/about'); ?>" class="nav-link text-white">About</a>
 							<a href="<?php echo site_url('/betting'); ?>" class="nav-link text-white">Betting</a>
 							<a href="<?php echo site_url('/contact'); ?>" class="nav-link text-white">Contact</a>
 						</li>
+					</ul>
+					<ul class="navbar-nav two">
+						<li class="nav-item"><a href="<?php echo site_url('/join-now'); ?>" class="nav-link">Join</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/login'); ?>" class="nav-link">Login</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/register'); ?>" class="nav-link">Register</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/betting'); ?>" class="nav-link">Betting</a></li>
 					</ul>
     			</div>
   			</div>
