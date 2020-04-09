@@ -6,7 +6,7 @@ get_header();
 ?>
 
 <section id="header-main">
-    <div class="container">
+    <div class="container-fluid">
             <div class="col-12">
                 <div class="betting">
                     <h1 class="text-center text-white">Drego Sports Betting Guide</h1>

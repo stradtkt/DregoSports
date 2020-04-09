@@ -49,9 +49,7 @@
   			<nav class="navbar">
 				<a href="" class="navbar-brand text-black">Drego Sports</a>
     			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-bar bar1"></span>
-					<span class="navbar-toggler-bar bar2"></span>
-					<span class="navbar-toggler-bar bar3"></span>
+					<span class="menu">MENU</span>
     			</button>
   			</nav>
 		</div>

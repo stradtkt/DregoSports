@@ -6,7 +6,7 @@ get_header();
 
 
 <section id="contact-main">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col col-md-12">
                 <div class="betting">
