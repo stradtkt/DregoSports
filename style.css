@@ -54,7 +54,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
  @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
- @import url('https://fonts.googleapis.com/css?family=Aclonica|Anton|Do+Hyeon|IM+Fell+French+Canon+SC|Nova+Cut|Oswald&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Aclonica|Anton|Do+Hyeon|IM+Fell+French+Canon+SC|Nova+Cut|Oswald|Overpass&display=swap');
 
 html {
 	line-height: 1.15; /* 1 */
@@ -989,8 +989,14 @@ object {
 	display: block;
 }
 
+
+
 html, body {
 	height: 100%;
+}
+
+body {
+	background: rgba(200,200,200,0.2) !important;
 }
 
 nav {
@@ -1048,7 +1054,10 @@ nav .navbar-brand {
 	color: white;
 	padding: 20px;
 	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
 }
+.navbar-nav.three,
 .navbar-nav.two,
 .navbar-nav.one {
 	display: inline-block;
@@ -1067,15 +1076,23 @@ nav .navbar-brand {
 	-ms-box-shadow: 1px 3px 10px #222;
 	-o-box-shadow: 1px 3px 10px #222;
 }
+.fc-center h2,
 .menu {
 	color: #0099dd;
 	font-family: 'Oswald', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 }
+.fc-center h2 {
+	margin: 10px 0 0 0 !important;
+}
+.fc-today-button {
+	display: none;
+}
 .bg-dark.p-4 {
 	display: inline-block;
 	position: fixed;
+	width: 500px;
 	top: 70px;
 	z-index: 1000;
 	background: rgba(0,0,0,0.8) !important;
@@ -1111,7 +1128,7 @@ nav .navbar-brand {
 .betting h1,
 .betting p {
 	position: relative;
-	top: 100px;
+	top: 220px;
 }
 
 .site-footer {
@@ -1130,8 +1147,34 @@ nav .navbar-brand {
 .site-footer ul li a {
 	color: white;
 	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
 	position: relative;
 	right: 100px;
+}
+.site-footer h3 {
+	font-family: 'Anton', sans-serif;
+	font-size: 26px;
+	font-weight: 400;
+	color: #0099dd;
+}
+.fc-button-group button {
+	background: #0099dd;
+	color: white;
+	border: 1px dotted white !important;
+}
+.ui-widget-header,
+.fc-day-header {
+	color: white;
+	background: #0099dd;
+	border: 1px dotted white !important;
+}
+.fc-button-group .ui-icon-circle-triangle-e {
+	color: white !important;
+}
+.site-footer p small {
+	font-family: 'IM Fell French Canon SC', serif;
+	font-size: 18px;
 }
 .betting h1 {
 	font-family: 'Anton', sans-serif;
@@ -1296,6 +1339,12 @@ nav .navbar-brand {
 .card.blue .btn {
 	background: white !important;
 	color: #0099dd !important;
+}
+
+#testimonials p,
+#features p {
+	font-family: 'Overpass', sans-serif;
+	font-size: 17px;
 }
 
 #testimonials blockquote h4 {
@@ -1524,6 +1573,12 @@ input[type="password"].input {
 	height: 100px;
 }
 
+#calendar {
+	max-width: 300px;
+	height: 100%;
+	margin: 0 auto;
+  }
+
 .name,
 .num {
 	font-family: 'Oswald', sans-serif;
@@ -1542,11 +1597,62 @@ input[type="password"].input {
 	font-family: 'Do Hyeon', sans-serif;
 }
 
+#wp-calendar {
+	background: rgba(255,255,255,0.3);
+
+}
+table#wp-calendar thead tr th {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: #000;
+	padding: 5px;
+}
+
+table#wp-calendar tbody tr td {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: white;
+	padding: 5px;
+}
 
 
-@media only screen and (min-width: 320px) and (max-width: 360px) {
+#privacy-policy-section h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: #000;
+	margin: 15px 0;
+}
+
+#privacy-policy-section h1 {
+	font-family: 'Anton', sans-serif;
+	font-weight: 700;
+	color: #000;
+	margin: 25px 0;
+}
+
+#privacy-policy-section p {
+	font-family: 'Overpass', sans-serif;
+	font-size: 15px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 330px) {
+	.navbar-toggler {
+		margin: 0 auto;
+		background: gold !important;
+		width: 80px !important;
+		height: 40px !important;
+		position: relative !important;
+		right: 0 !important;
+		box-shadow: 1px 3px 10px #222;
+		-webkit-box-shadow: 1px 3px 10px #222;
+		-moz-box-shadow: 1px 3px 10px #222;
+		-ms-box-shadow: 1px 3px 10px #222;
+		-o-box-shadow: 1px 3px 10px #222;
+	}
 	.betting {
 		right: 30px;
+		width: 325px !important;
 	}
 	.bg-dark.p-4 {
 		width: 200px !important;
@@ -1583,4 +1689,22 @@ input[type="password"].input {
 	#plans .plans-hr {
 		left: 10%;
 	}
+
+
+	#wp-calendar {
+		background: rgba(255,255,255,0.3);
+
+	}
+	table#wp-calendar thead tr th {
+		font-family: 'Oswald', sans-serif;
+		font-weight: 700;
+		color: #000;
+	}
+	/* h2.widgettitle {
+		background: #f9f9f9;
+		font-family: 'Oswald', sans-serif;
+		font-size: 40px;
+		font-weight: 700;
+		color: #222;
+	} */
 }

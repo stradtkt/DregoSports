@@ -21,60 +21,8 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="list-group">
-                    <a href="<?php echo site_url('/bengals-vs-ravens'); ?>" class="list-group-item list-group-item-action active">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Week 1</h5>
-                            <small class="date">9/10/2020</small>
-                        </div>
-                        <small>Click to see bets</small>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
             <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Week 2</h5>
-                            <small class="date">9/17/2020</small>
-                        </div>
-                        <small>Click to see bets</small>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-            <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Week 3</h5>
-                            <small class="date">9/24/2020</small>
-                        </div>
-                        <small>Click to see bets</small>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-            <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Week 4</h5>
-                            <small class="date">10/1/2020</small>
-                        </div>
-                        <small>Click to see bets</small>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-            <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action">
+                    <a href="#" class="list-group-item list-group-item-action active">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">Week 5</h5>
                             <small class="date">10/8/2020</small>

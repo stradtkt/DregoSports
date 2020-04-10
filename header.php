@@ -44,9 +44,14 @@
 						<li class="nav-item"><a href="<?php echo site_url('/register'); ?>" class="nav-link">Register</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/betting'); ?>" class="nav-link">Betting</a></li>
 					</ul>
+					<ul class="navbar-nav three">
+						<li class="nav-item"><a href="<?php echo site_url('/privacy-policy'); ?>" class="nav-link">Privacy Policy</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/RSS'); ?>" class="nav-link"><i class="fas fa-rss"></i> RSS</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/thursday'); ?>" class="nav-link">Thursday</a></li>
+					</ul>
     			</div>
   			</div>
-  			<nav class="navbar">
+  			<nav class="navbar fixed-top">
 				<a href="" class="navbar-brand text-black">Drego Sports</a>
     			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="menu">MENU</span>

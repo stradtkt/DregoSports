@@ -113,6 +113,11 @@ function drego_sports_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+
+	register_sidebar(array(
+		'name' => __('Calendar Footer Area', 'cfa'),
+		'id' => 'calendar-footer-area',
+	));
 }
 add_action( 'widgets_init', 'drego_sports_widgets_init' );
 

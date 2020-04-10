@@ -16,6 +16,9 @@
 	<footer id="colophon" class="site-footer">
 		<div class="container">
 			<div class="row">
+				<div class="col-12 col-md-4">
+					<?php echo do_shortcode('[fullcalendar type="thu"]'); ?>
+				</div>
 				<div class="col-12 col-md-2 mt-3">
 					<h3 class="text-center">Menu</h3>
 					<ul>
@@ -34,7 +37,6 @@
 						<li class="nav-item"><a href="<?php echo site_url('/betting'); ?>" class="nav-link">Betting</a></li>
 					</ul>
 				</div>
-				<div class="col-12 col-md-4"></div>
 				<div class="col-12 col-md-4 text-center mt-3">
 					<p><small>&copy; Drego Sports, 2020.</small></p>
 					<p>
@@ -47,8 +49,6 @@
 		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
-
 <?php wp_footer(); ?>
-
 </body>
 </html>
