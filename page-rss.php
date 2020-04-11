@@ -3,8 +3,8 @@
 get_header();
 ?>
 
-<section id="register-main">
-    <div class="container">
+<section id="login-main">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12">
                 <div class="betting">

@@ -5,12 +5,12 @@ get_header();
 ?>
 
 
-<section id="thursday-main">
+<section id="login-main">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
                 <div class="betting">
-                    <h1 class="text-left">Thursday</h1>
+                    <h1 class="text-left"><?php the_title(); ?></h1>
                 </div>
             </div>
         </div>

@@ -31,29 +31,25 @@
     			<div class="bg-dark p-4 text-center">
       				<h1 class="h1"><span class="D">D</span><small class="logo-end"> rego</small> <span class="S">S</span><small class="logo-end"> ports</small></h1>
       				<ul class="navbar-nav one">
-						<li class="nav-item">
-							<a href="<?php echo site_url('/'); ?>" class="nav-link text-white">Home</a>
-							<a href="<?php echo site_url('/about'); ?>" class="nav-link text-white">About</a>
-							<a href="<?php echo site_url('/betting'); ?>" class="nav-link text-white">Betting</a>
-							<a href="<?php echo site_url('/contact'); ?>" class="nav-link text-white">Contact</a>
-						</li>
+						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link text-white">Home</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/about'); ?>" class="nav-link text-white">About</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/contact'); ?>" class="nav-link text-white">Contact</a></li>
 					</ul>
 					<ul class="navbar-nav two">
-						<li class="nav-item"><a href="<?php echo site_url('/join-now'); ?>" class="nav-link">Join</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link">Join</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/login'); ?>" class="nav-link">Login</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/register'); ?>" class="nav-link">Register</a></li>
-						<li class="nav-item"><a href="<?php echo site_url('/betting'); ?>" class="nav-link">Betting</a></li>
 					</ul>
 					<ul class="navbar-nav three">
 						<li class="nav-item"><a href="<?php echo site_url('/privacy-policy'); ?>" class="nav-link">Privacy Policy</a></li>
-						<li class="nav-item"><a href="<?php echo site_url('/RSS'); ?>" class="nav-link"><i class="fas fa-rss"></i> RSS</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/RSS'); ?>" class="nav-link">RSS</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/thursday'); ?>" class="nav-link">Thursday</a></li>
 					</ul>
     			</div>
   			</div>
   			<nav class="navbar fixed-top">
 				<a href="" class="navbar-brand text-black">Drego Sports</a>
-    			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+    			<button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="menu">MENU</span>
     			</button>
   			</nav>
