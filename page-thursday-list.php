@@ -1,6 +1,6 @@
 <?php
 
-// Template Name: Thursday
+// Template Name: Thursday List
 get_header();
 ?>
 
@@ -18,18 +18,6 @@ get_header();
 </section>
 
 <section id="thursday-section" class="mt-5 mb-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-8 offset-lg-2">
-                <div id="caution" class="caution"></div>
-                <p class="lead"><strong>THESE SPREADS ARE DETERMINED BY CLOSING ODDS. THEREFORE SHOULD BE USED OF A MAX 15 MINUTES PRIOR TO SELECTED GAME(S) KICKOFF.</strong></p>
-                <a href="<?php echo site_url('/thursday-list'); ?>" class="btn">Enter Now</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- <section id="thursday-section" class="mt-5 mb-5">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -175,7 +163,7 @@ get_header();
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 
 

@@ -42,7 +42,10 @@ get_header();
                     </div>
                     <div class="card-body">
                         <ul>
-                            <li><i class="fas fa-check"></i> Get the best betting advice for this weeks <strong>Thursday</strong> night game(s).</li>
+                            <li><i class="fas fa-check"></i> <strong>Thursday</strong> Night Football</li>
+                            <li><i class="fas fa-check"></i> Multiple Closing Spread Analysis</li>
+                            <li><i class="fas fa-check"></i> Updated Spread Predictions</li>
+                            <li><i class="fas fa-check"></i> Betting Strategy</li>
                         </ul>
                         <a href="<?php echo site_url('/thursday'); ?>" class="card-link btn">Enter Now</a>
                     </div>
@@ -57,7 +60,10 @@ get_header();
                     </div>
                     <div class="card-body">
                         <ul>
-                            <li><i class="fas fa-check"></i> Get the best betting advice for this weeks <strong>Monday</strong> night game(s).</li>
+                            <li><i class="fas fa-check"></i> <strong>Monday</strong> Night Football</li>
+                            <li><i class="fas fa-check"></i> Multiple Closing Spread Analysis</li>
+                            <li><i class="fas fa-check"></i> Updated Spread Predictions</li>
+                            <li><i class="fas fa-check"></i> Betting Strategy</li>
                         </ul>
                         <a href="<?php echo site_url('/thursday'); ?>" class="card-link btn">Enter Now</a>
                     </div>
@@ -72,9 +78,14 @@ get_header();
                     </div>
                     <div class="card-body">
                         <ul>
-                            <li><i class="fas fa-check"></i> Get the best betting advice for this weeks <strong>Monday</strong> night game(s).</li>
+                            <li><i class="fas fa-check"></i> <strong>Sunday</strong> Football Games</li>
+                            <li><i class="fas fa-check"></i> Multiple Closing Spread Analysis</li>
+                            <li><i class="fas fa-check"></i> Updated Spread Predictions</li>
+                            <li><i class="fas fa-check"></i> Parlay Predictions</li>
+                            <li><i class="fas fa-check"></i> Betting Strategy</li>
+                            <li><i class="fas fa-check"></i> Live Betting (12:30 EST, 3:50 EST) - Podcast</li>
                         </ul>
-                        <a href="<?php echo site_url('/thursday'); ?>" class="card-link btn">Enter Now</a>
+                        <a href="<?php echo site_url('/sunday'); ?>" class="card-link btn sunday-btn">Enter Now</a>
                     </div>
                 </div>
             </div>
@@ -87,7 +98,10 @@ get_header();
                     </div>
                     <div class="card-body">
                         <ul>
-                            <li><i class="fas fa-check"></i> Get the best betting advice for all <strong>Sunday</strong> games for this week.</li>
+                            <li><i class="fas fa-check"></i> <strong>All Week</strong> Football</li>
+                            <li><i class="fas fa-check"></i> Multiple Closing Spread Analysis</li>
+                            <li><i class="fas fa-check"></i> Updated Spread Predictions</li>
+                            <li><i class="fas fa-check"></i> Betting Strategy</li>
                         </ul>
                         <a href="<?php echo site_url('/thursday'); ?>" class="card-link btn">Enter Now</a>
                     </div>

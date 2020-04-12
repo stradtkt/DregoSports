@@ -15,13 +15,16 @@ get_header();
     </div>
 </section>
 
-<section id="register-section">
+<section id="rss-section" class="mt-5 mb-5">
     <div class="container">
-        <div class="row mt-5 mb-5">
-            <div class="col-12 col-md-8 offset-md-2">
-                <div class="card card-body">
-                   <?php echo do_shortcode('[wp-rss-aggregator feeds="www-espn-com-nfl"]'); ?>
-                </div>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">ESPN NFL FEEDS</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <?php echo do_shortcode('[wp-rss-aggregator feeds="www-espn-com-nfl"]'); ?>
             </div>
         </div>
     </div>
