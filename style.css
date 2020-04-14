@@ -1902,6 +1902,56 @@ ul.wpra-item-list {
 	}
 }
 
+@media only screen and (min-width: 568px) and (max-width: 570px) {
+	.home .navbar-toggler {
+		right: 76vw !important;
+	}
+	.page-template .navbar-toggler {
+		right: 97vw;
+	}
+	nav .navbar-brand {
+		left: 60vw !important;
+	}
+	.betting {
+		width: 570px !important;
+	}
+	.betting h1 {
+		font-size: 48px;
+	}
+
+	.site-footer ul li a {
+		position: relative;
+		right: 0%;
+		left: 33% !important;
+	}
+	.home .betting h1 {
+
+	}
+	#plans .plans-hr {
+		position: relative;
+		left: 6%;
+		top: 40px;
+	}
+	#plans .plans-hr:before { 
+		position: absolute;
+		left: 0;
+	}
+	#plans .plans-hr:after {
+		position:absolute;
+		left:48%;
+	}
+	#plans .card-body ul li {
+		font-size: 20px;
+	}
+	#privacy-policy-section h1 {
+		font-size: 35px;
+	}
+	.fc-day-header {
+		font-size: 19px !important;
+		font-weight: 500;
+	}
+}
+
 @media only screen and (min-width: 425px) and (max-width: 430px) {
 	.home .navbar-toggler {
 		position: relative;
