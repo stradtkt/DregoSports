@@ -16,7 +16,7 @@
 	<footer id="colophon" class="site-footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-sm-8 col-md-4 offset-sm-2">
+				<div class="col-12 col-sm-8 col-md-4 offset-sm-2 offset-md-0 offset-lg-0">
 					<?php echo do_shortcode('[fullcalendar type="thu"]'); ?>
 				</div>
 				<div class="col-12 col-sm-6 col-md-2 mt-3">
@@ -37,7 +37,7 @@
 						<li class="nav-item"><a href="<?php echo site_url('/sunday'); ?>" class="nav-link">Sunday</a></li>
 					</ul>
 				</div>
-				<div class="col-12 col-md-4 text-center mt-3">
+				<div class="col-12 col-sm-12 col-md-4 text-center mt-3">
 					<p><small>&copy; Drego Sports, 2020.</small></p>
 					<p>
 						<a href=""><i class="fab fa-youtube"></i></a>

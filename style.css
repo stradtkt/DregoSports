@@ -997,6 +997,7 @@ html, body {
 
 body {
 	background: rgba(200,200,200,0.2) !important;
+	overflow-x: hidden;
 }
 
 nav {
@@ -1770,6 +1771,48 @@ ul.wpra-item-list {
 	-o-border-radius: 5px;
 }
 
+.ninja-forms-field {
+	font-weight: 700 !important;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+}
+
+@media only screen and (min-width: 1112px) and (max-width: 1115px) {
+	.home .navbar-toggler {
+		right: 90vw !important;
+	}
+	.page-template .navbar-toggler {
+		right: 111.5vw;
+	}
+	nav .navbar-brand {
+		left: 75vw !important;
+	}
+	.betting h1 {
+		font-size: 68px;
+	}
+	#plans .sunday-btn {
+		position: relative;
+		top: 88px !important;
+	}
+	.site-footer ul li a {
+		position: relative;
+		right: 58% !important;
+	}
+	.panel-body,
+	#testimonials p,
+	#features p {
+		font-size: 15px;
+	}
+	.home .betting h1 {
+		top: 170px;
+	}
+	.fc-day-header {
+		font-size: 17px !important;
+		font-weight: 500;
+	}
+}
+
+
 @media only screen and (min-width: 1024px) and (max-width: 1030px) {
 	.home .navbar-toggler {
 		right: 90vw !important;
@@ -1802,6 +1845,62 @@ ul.wpra-item-list {
 	.fc-day-header {
 		font-size: 17px !important;
 		font-weight: 500;
+	}
+}
+
+@media only screen and (min-width: 834px) and (max-width: 840px) {
+	.home .navbar-toggler {
+		right:85vw !important;
+	}
+	.page-template .navbar-toggler {
+		right: 107vw;
+	}
+	.betting {
+		width: 840px !important;
+	}
+	.home .betting h1 {
+		top: 160px;
+	}
+	nav .navbar-brand {
+		left: 70vw !important;
+	}
+	.betting h1 {
+		font-size: 68px;
+	}
+	#plans .card-body ul li {
+		font-size: 20px;
+	}
+	.site-footer ul li a {
+		position: relative;
+		right: 64%;
+	}
+}
+
+@media only screen and (min-width: 812px) and (max-width: 815px) {
+	.home .navbar-toggler {
+		right:85vw !important;
+	}
+	.page-template .navbar-toggler {
+		right: 107vw;
+	}
+	.betting {
+		width: 815px !important;
+	}
+	.home .betting h1 {
+		top: 160px;
+	}
+	nav .navbar-brand {
+		left: 70vw !important;
+	}
+	.betting h1 {
+		font-size: 68px;
+	}
+	#plans .card-body ul li {
+		font-size: 20px;
+	}
+	.site-footer ul li a {
+		position: relative;
+		right: 64%;
 	}
 }
 
