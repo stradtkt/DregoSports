@@ -1783,7 +1783,10 @@ ul.wpra-item-list {
 	.betting h1 {
 		font-size: 68px;
 	}
-
+	#plans .sunday-btn {
+		position: relative;
+		top: 88px !important;
+	}
 	.site-footer ul li a {
 		position: relative;
 		right: 59.5%;
@@ -1795,6 +1798,10 @@ ul.wpra-item-list {
 	}
 	.home .betting h1 {
 		top: 170px;
+	}
+	.fc-day-header {
+		font-size: 17px !important;
+		font-weight: 500;
 	}
 }
 
@@ -1951,6 +1958,142 @@ ul.wpra-item-list {
 	.navbar-nav.one {
 		position: relative;
 		right: 25px;
+	}
+}
+
+@media only screen and (min-width: 414px) and (max-width: 420px) {
+	.home .navbar-toggler {
+		position: relative;
+		right: 5px !important;
+	}
+	.navbar-toggler {
+		margin: 0 auto;
+		position: relative;
+		right: 38px;
+	}
+	.betting {
+		right: 30px;
+		width: 435px !important;
+	}
+	.bg-dark.p-4 {
+		width: 435px !important;
+		position: fixed;
+		z-index: 1000;
+		left: 0;
+		top: 10.9vh;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+	.navbar-brand {
+		display: none !important;
+	}
+	.bg-dark.p-4 .navbar-nav .nav-link {
+		color: white !important;
+		text-decoration: none;
+		font-size: 16px;
+		font-weight: 600;
+	}
+	.betting h1 {
+		font-size: 35px;
+		position: relative;
+		top: 150px !important;
+	}
+	.betting h1,
+	.betting p {
+		position: relative;
+		top: 100px;
+	}
+	nav {
+		margin: 0 !important;
+		padding: 0;
+	}
+	.site-footer ul li a {
+		text-align: center;
+		right: 30px;
+	}
+	#plans .plans-hr {
+		left: 10%;
+	}
+
+	.panel-title {
+		font-size: 18px;
+	}
+
+	.panel-title a:after {
+		color: #0099dd;
+		font-weight: 700 !important;
+		font-size: 20px !important;
+	}
+
+	#wp-calendar {
+		background: rgba(255,255,255,0.3);
+
+	}
+	table#wp-calendar thead tr th {
+		font-family: 'Oswald', sans-serif;
+		font-weight: 700;
+		color: #000;
+	}
+	/* h2.widgettitle {
+		background: #f9f9f9;
+		font-family: 'Oswald', sans-serif;
+		font-size: 40px;
+		font-weight: 700;
+		color: #222;
+	} */
+	#login-main {
+		width: 435px;
+	}
+	.ur-submit-button,
+	#wp-submit {
+		display: block;
+		background: #0099dd;
+		color: white;
+		padding: 10px !important;
+		margin: 0 auto;
+		width: 40%;
+		font-family: 'IM Fell French Canon SC', serif !important;
+		font-weight: 600;
+		font-size: 16px !important;
+	}
+
+	#thursday-section .col-12.col-lg-8.offset-lg-2,
+	#sunday-section .col-12.col-lg-8.offset-lg-2 {
+		margin-left: 2px;
+	}
+	#sunday-section .btn,
+	#thursday-section .btn {
+		font-size: 15px;
+		width: 50%;
+	}
+	.fc-day-header {
+		font-size: 19px !important;
+		font-weight: 500;
+	}
+	.site-footer ul li a {
+		text-align: center;
+		right: 0px;
+	}
+	.site-footer {
+		width: 435px;
+	}
+	.fc-toolbar h2 {
+		position: relative;
+		bottom: 5px;
+		font-size: 16px !important;
+	}
+	.navbar-nav.three,
+	.navbar-nav.two,
+	.navbar-nav.one {
+		position: relative;
+		right: 25px;
+	}
+	#plans {
+		position: relative;
+		left: 5px;
+	}
+	#about h5 {
+		font-size: 18px;
 	}
 }
 
