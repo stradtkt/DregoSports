@@ -1331,7 +1331,7 @@ nav .navbar-brand {
 
 #plans .sunday-btn {
 	position: relative;
-	top: 87px !important;
+	top: 107px !important;
 }
 
 
@@ -1770,10 +1770,40 @@ ul.wpra-item-list {
 	-o-border-radius: 5px;
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1030px) {
+	.home .navbar-toggler {
+		right: 90vw !important;
+	}
+	.page-template .navbar-toggler {
+		right: 111.5vw;
+	}
+	nav .navbar-brand {
+		left: 75vw !important;
+	}
+	.betting h1 {
+		font-size: 68px;
+	}
+
+	.site-footer ul li a {
+		position: relative;
+		right: 59.5%;
+	}
+	.panel-body,
+	#testimonials p,
+	#features p {
+		font-size: 15px;
+	}
+	.home .betting h1 {
+		top: 170px;
+	}
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1020px) {
-	.navbar-toggler {
-		right:105vw !important;
+	.home .navbar-toggler {
+		right:85vw !important;
+	}
+	.page-template .navbar-toggler {
+		right: 107vw;
 	}
 	nav .navbar-brand {
 		left: 70vw !important;
