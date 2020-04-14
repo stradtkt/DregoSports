@@ -16,10 +16,10 @@
 	<footer id="colophon" class="site-footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-md-4">
+				<div class="col-12 col-sm-8 col-md-4 offset-sm-2">
 					<?php echo do_shortcode('[fullcalendar type="thu"]'); ?>
 				</div>
-				<div class="col-12 col-md-2 mt-3">
+				<div class="col-12 col-sm-6 col-md-2 mt-3">
 					<h3 class="text-center">Menu</h3>
 					<ul>
 						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link">Home</a></li>
@@ -28,7 +28,7 @@
 						<li class="nav-item"><a href="<?php echo site_url('/contact'); ?>" class="nav-link">Contact</a></li>
 					</ul>
 				</div>
-				<div class="col-12 col-md-2 mt-3">
+				<div class="col-12 col-sm-6 col-md-2 mt-3">
 					<h3 class="text-center">Explore</h3>
 					<ul>
 						<li class="nav-item"><a href="<?php echo site_url('/login'); ?>" class="nav-link">Login</a></li>

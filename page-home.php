@@ -33,7 +33,7 @@ get_header();
 <section id="plans" class=" mt-5 mb-5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
                     <div class="card-header text-center">
                         <h1>Free</h1>
@@ -51,7 +51,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="card blue">
                     <div class="card-header text-center">
                         <h1>Free</h1>
@@ -69,7 +69,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
                     <div class="card-header text-center">
                         <h1>Free</h1>
@@ -89,7 +89,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="card blue">
                     <div class="card-header text-center">
                         <h1>Free</h1>
@@ -116,22 +116,22 @@ get_header();
 <section id="features" class=" mt-5 mb-5">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                     <p class="text-center"><i class="fas fa-calendar-plus"></i></p>
                     <h4 class="text-center"><strong>Updated Daily</strong></h4>
                     <p class="text-center">Updated daily.  The games will be updated daily and will be sent out for the final results right before the games start at the beginning of the week.</p>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                     <p class="text-center"><i class="fas fa-money-bill-alt"></i></p>
                     <h4 class="text-center"><strong>More Accurate Predictions</strong></h4>
                     <p class="text-center">Have more accurate predictions than competing sites.  Our results and numbers have cme from thorough analysis and trials before we actually give you the correct numbers.</p>
             </div>
-            <div class="ccol-12 col-md-6 col-lg-3">
+            <div class="ccol-12 col-sm-6 col-md-6 col-lg-3">
                     <p class="text-center"><i class="fab fa-cc-stripe"></i><i class="fab fa-cc-paypal"></i></p>
                     <h4 class="text-center"><strong>Stripe And Paypal</strong></h4>
                     <p class="text-center">We go through stripe and paypal.  Your connection will be secure upon checkout.  You have no worries of unwanted charges from us or someone else.</p>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                     <p class="text-center"><i class="fas fa-newspaper"></i></p>
                     <h4 class="text-center"><strong>Sign Up For A Newsletter</strong></h4>
                     <p class="text-center">Sign up for the newsletter.  This newsletter will show you when we are having deals with our membership, and will provide more information about data from our site.</p>
@@ -145,7 +145,7 @@ get_header();
 <section id="testimonials" class=" mt-5 mb-5">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <blockquote>
                     <h4><strong>Jose Portillo</strong></h4>
                     <p><i class="fas fa-quote-left"></i> This site has made me a better gambler.  Thanks to Drego Sports I can bring in additional income for me and my family!</p>
@@ -158,7 +158,7 @@ get_header();
                     <i class="fas fa-star"></i>
                 </p>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <blockquote>
                     <h4><strong>John Ryan</strong></h4>
                     <p><i class="fas fa-quote-left"></i> Thanks Drego Sports so much for your constant updates on the NFL games.  You should get into MLB and NBA!</p>
@@ -171,7 +171,7 @@ get_header();
                     <i class="fas fa-star"></i>
                 </p>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <blockquote>
                     <h4><strong>Anthony Garcia</strong></h4>
                     <p><i class="fas fa-quote-left"></i> I couldn't thank Drego Sports enough for what they have done for my betting career.  They have brought me out of the slumps.</p>
@@ -184,7 +184,7 @@ get_header();
                     <i class="fas fa-star"></i>
                 </p>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <blockquote>
                     <h4><strong>Mary Shwimmer</strong></h4>
                     <p><i class="fas fa-quote-left"></i> This is definitely the site to go off of for betting advice for the NFL.  You guys are awesome.  Don't quit doing what you are doing.</p>

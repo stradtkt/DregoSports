@@ -1832,6 +1832,76 @@ ul.wpra-item-list {
 	}
 }
 
+@media only screen and (min-width: 736px) and (max-width: 740px) {
+	.home .navbar-toggler {
+		right:82vw !important;
+	}
+	.page-template .navbar-toggler {
+		right: 104vw;
+	}
+	nav .navbar-brand {
+		left: 70vw !important;
+	}
+	.betting h1 {
+		font-size: 48px;
+	}
+	.site-footer ul li a {
+		position: relative;
+		right: 30.5%;
+	}
+	.home .betting h1 {
+		top: 170px;
+		font-size: 55px;
+	}
+	.fc-day-header {
+		font-size: 19px !important;
+		font-weight: 500;
+	}
+	#privacy-policy-section h1 {
+		font-size: 35px;
+	}
+}
+
+@media only screen and (min-width: 667px) and (max-width: 670px) {
+	.home .navbar-toggler {
+		right:75vw !important;
+	}
+	.page-template .navbar-toggler {
+		right: 97vw;
+	}
+	nav .navbar-brand {
+		left: 60vw !important;
+	}
+	.betting h1 {
+		font-size: 48px;
+	}
+
+	#plans .card:not(.blue) {
+		position: relative;
+		left: 10px;
+	}
+	#plans .card.blue {
+		position: relative;
+		right: 10px;
+	}
+
+	.site-footer ul li a {
+		position: relative;
+		right: 32%;
+	}
+	.home .betting h1 {
+
+	}
+
+	#privacy-policy-section h1 {
+		font-size: 35px;
+	}
+	.fc-day-header {
+		font-size: 19px !important;
+		font-weight: 500;
+	}
+}
+
 @media only screen and (min-width: 425px) and (max-width: 430px) {
 	.home .navbar-toggler {
 		position: relative;
