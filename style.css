@@ -1777,6 +1777,131 @@ ul.wpra-item-list {
 	font-size: 16px;
 }
 
+@media only screen and (min-width: 1680px) and (max-width: 1685px) {
+	.home .navbar-toggler {
+		right: 92vw !important;
+	}
+	.page-template .navbar-toggler {
+		right: 118.5vw;
+	}
+	nav .navbar-brand {
+		left: 80vw !important;
+	}
+	.betting h1 {
+		font-size: 88px !important;
+		position: relative;
+		top: 250px !important;
+	}
+	.betting {
+		width: 1685px !important;
+	}
+	.home .betting h1 {
+		top: 250px !important;
+	}
+	#plans .sunday-btn {
+		position: relative;
+		top: 88px !important;
+	}
+	.site-footer ul li a {
+		position: relative;
+		right: 50% !important;
+	}
+	.panel-body,
+	#testimonials p,
+	#features p {
+		font-size: 15px;
+	}
+	.home .betting h1 {
+		top: 170px;
+	}
+	.fc-day-header {
+		font-size: 17px !important;
+		font-weight: 500;
+	}
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1445px) {
+	.home .navbar-toggler {
+		right: 90vw !important;
+	}
+	.page-template .navbar-toggler {
+		right: 111.5vw;
+	}
+	nav .navbar-brand {
+		left: 80vw !important;
+	}
+	.betting h1 {
+		font-size: 88px !important;
+	}
+	.betting {
+		width: 1445px !important;
+	}
+	.home .betting h1 {
+		top: 250px !important;
+	}
+	#plans .sunday-btn {
+		position: relative;
+		top: 88px !important;
+	}
+	.site-footer ul li a {
+		position: relative;
+		right: 50% !important;
+	}
+	.panel-body,
+	#testimonials p,
+	#features p {
+		font-size: 15px;
+	}
+	.home .betting h1 {
+		top: 170px;
+	}
+	.fc-day-header {
+		font-size: 17px !important;
+		font-weight: 500;
+	}
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1370px) {
+	.home .navbar-toggler {
+		right: 90vw !important;
+	}
+	.page-template .navbar-toggler {
+		right: 111.5vw;
+	}
+	nav .navbar-brand {
+		left: 80vw !important;
+	}
+	.betting h1 {
+		font-size: 88px !important;
+	}
+	.betting {
+		width: 1370px !important;
+	}
+	.home .betting h1 {
+		top: 250px !important;
+	}
+	#plans .sunday-btn {
+		position: relative;
+		top: 88px !important;
+	}
+	.site-footer ul li a {
+		position: relative;
+		right: 52% !important;
+	}
+	.panel-body,
+	#testimonials p,
+	#features p {
+		font-size: 15px;
+	}
+	.home .betting h1 {
+		top: 170px;
+	}
+	.fc-day-header {
+		font-size: 17px !important;
+		font-weight: 500;
+	}
+}
+
 @media only screen and (min-width: 1112px) and (max-width: 1115px) {
 	.home .navbar-toggler {
 		right: 90vw !important;
