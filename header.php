@@ -29,7 +29,6 @@
 		<div class="pos-f-t">
   			<div class="collapse" id="navbarToggleExternalContent">
     			<div class="bg-dark p-4 text-center">
-      				<h1 class="h1"><span class="D">D</span><small class="logo-end"> rego</small> <span class="S">S</span><small class="logo-end"> ports</small></h1>
       				<ul class="navbar-nav one">
 						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link text-white">Home</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/about'); ?>" class="nav-link text-white">About</a></li>

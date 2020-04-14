@@ -205,7 +205,7 @@ get_header();
 
 <section id="faq" class=" mt-5 mb-5">
 <div class="container">
-    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="false">
         <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="headingOne">
             <h4 class="panel-title">

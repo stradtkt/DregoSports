@@ -19,12 +19,12 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="text-center">ESPN NFL FEEDS</h1>
+                <h1 class="text-center">NFL ODDS FEEDS</h1>
             </div>
         </div>
         <div class="row">
             <div class="col-12">
-                <?php echo do_shortcode('[wp-rss-aggregator feeds="www-espn-com-nfl"]'); ?>
+                <?php echo do_shortcode('[wp-rss-aggregator feeds="231"]'); ?>
             </div>
         </div>
     </div>
