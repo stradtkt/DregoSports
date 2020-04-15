@@ -1345,6 +1345,33 @@ nav .navbar-brand {
 	position: relative;
 	top: 107px !important;
 }
+#single-thursday-section .col-12.col-md-6.text-left {
+	border-right: 4px solid #0099dd;
+}
+
+#single-thursday-section .col-12.col-md-6.text-left span.name,
+#single-thursday-section .col-12.col-md-6.text-left span.num {
+	position: relative;
+	left: 50%;
+}
+
+#single-thursday-section .col-12.col-md-6.text-right span {
+	position: relative;
+	right: 66%;
+}
+.pr {
+	background: goldenrod;
+	padding: 20px !important;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	color: #000;
+	font-weight: 700;
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;
+}
 
 
 

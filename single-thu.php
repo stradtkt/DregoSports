@@ -5,8 +5,8 @@ get_header();
 
 
 
-<section id="single-thursday-main">
-    <div class="container">
+<section id="login-main">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12">
                 <div class="betting">
@@ -27,15 +27,14 @@ get_header();
 
         <div class="card card-body">
             <div class="row">
-                <div class="col-12 col-md-6 text-right">
-                    <img src="<?php the_field('home_img'); ?>" alt="<?php the_title(); ?>" class="matchup-img home">
+                <div class="col-12 col-md-6 text-left">
+                    <span class="pr"><?php the_field('percentage_right'); ?>%</span>
                     <span class="name"><?php the_field('home_name'); ?></span>
                     <span class="num"><?php the_field('home_num'); ?></span>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 text-right">
                     <span class="num"><?php the_field('away_num'); ?></span>
                     <span class="name"><?php the_field('away_name'); ?></span>
-                    <img src="<?php the_field('away_img'); ?>" alt="<?php the_title(); ?>" class="matchup-img">
                 </div>
             </div>
         </div>
