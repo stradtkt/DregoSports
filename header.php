@@ -33,20 +33,15 @@
 						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link text-white">Home</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/about'); ?>" class="nav-link text-white">About</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/contact'); ?>" class="nav-link text-white">Contact</a></li>
-						<li class="nav-item"><a href="<?php echo site_url('/privacy-policy'); ?>" class="nav-link">Privacy Policy</a></li>
 					</ul>
 					<ul class="navbar-nav two">
 						<li class="nav-item"><a href="<?php echo site_url('/login'); ?>" class="nav-link">Login</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/register'); ?>" class="nav-link">Register</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/RSS'); ?>" class="nav-link">RSS</a></li>
-						<li class="nav-item"><a href="<?php echo site_url('/monday'); ?>" class="nav-link">Monday</a></li>
 					</ul>
-					<ul class="navbar-nav three">
-						<li class="nav-item"><a href="<?php echo site_url('/thursday'); ?>" class="nav-link">Thursday</a></li>
-						<li class="nav-item"><a href="<?php echo site_url('/sunday'); ?>" class="nav-link">Sunday</a></li>
+					<!-- <ul class="navbar-nav three">
 						<li class="nav-item"><a href="<?php echo site_url('/sunday-list'); ?>" class="nav-link">Sunday List</a></li>
-						<li class="nav-item"><a href="<?php echo site_url('/thursday-list'); ?>" class="nav-link">Thursday List</a></li>
-					</ul>
+					</ul> -->
     			</div>
   			</div>
   			<nav class="navbar fixed-top">

@@ -24,7 +24,6 @@
 					<ul>
 						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link">Home</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/about'); ?>" class="nav-link">About</a></li>
-						<li class="nav-item"><a href="<?php echo site_url('/privacy-policy'); ?>" class="nav-link">Privacy Policy</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/contact'); ?>" class="nav-link">Contact</a></li>
 					</ul>
 				</div>
