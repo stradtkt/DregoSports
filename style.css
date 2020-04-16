@@ -1360,27 +1360,30 @@ nav .navbar-brand {
 #single-thursday-section .col-12.col-md-6.text-left span.num {
 	position: relative;
 	left: 50%;
+	top: 26px;
 }
 #sunday-section-week .col-12.col-md-6.col-lg-6.text-right span,
 #single-thursday-section .col-12.col-md-6.text-right span {
 	position: relative;
 	right: 66%;
+	top: 26px;
 }
 .pr {
-	background: goldenrod;
-	padding: 20px !important;
-	border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	-o-border-radius: 50%;
 	color: #000;
 	font-weight: 700;
 	font-family: 'Oswald', sans-serif;
 	font-size: 22px;
+	position: relative;
+	top: 26px;
 }
 
-
+.badge {
+	background: url('assets/img/badge.png');
+	background-size: cover;
+	height: 70px;
+	width: 70px;
+	margin: 0;
+}
 
 .card.blue .btn {
 	background: white !important;
@@ -1835,8 +1838,6 @@ ul.wpra-item-list {
 	font-family: 'Oswald', sans-serif;
 }
 
-
-
 @media only screen and (min-width: 1920px) and (max-width: 1925px) {
 	.home .navbar-toggler {
 		right: 92vw !important;
@@ -1878,6 +1879,37 @@ ul.wpra-item-list {
 		font-size: 17px !important;
 		font-weight: 500;
 	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		position: relative;
+		left: 0%;
+		top: 10px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left {
+		top: 0;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		top: 20px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+		position: relative;
+		bottom: 70px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span {
+		position: relative;
+		right: 0 !important;
+		top: 93px !important; 
+	}
+	#sunday-section-week .badge {
+		position: relative;
+		bottom: 10px;
+	}
+	#sunday-section-week .badge .pr {
+		position: relative;
+		bottom: 0px;
+		top: 25px !important;
+	} 
 }
 
 @media only screen and (min-width: 1680px) and (max-width: 1685px) {
@@ -1921,6 +1953,37 @@ ul.wpra-item-list {
 		font-size: 17px !important;
 		font-weight: 500;
 	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		position: relative;
+		left: 0%;
+		top: 10px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left {
+		top: 0;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		top: 20px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+		position: relative;
+		bottom: 70px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span {
+		position: relative;
+		right: 0 !important;
+		top: 93px !important; 
+	}
+	#sunday-section-week .badge {
+		position: relative;
+		bottom: 10px;
+	}
+	#sunday-section-week .badge .pr {
+		position: relative;
+		bottom: 0px;
+		top: 25px !important;
+	} 
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1445px) {
@@ -1962,6 +2025,37 @@ ul.wpra-item-list {
 		font-size: 17px !important;
 		font-weight: 500;
 	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		position: relative;
+		left: 0%;
+		top: 10px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left {
+		top: 0;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		top: 20px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+		position: relative;
+		bottom: 70px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span {
+		position: relative;
+		right: 0 !important;
+		top: 93px !important; 
+	}
+	#sunday-section-week .badge {
+		position: relative;
+		bottom: 10px;
+	}
+	#sunday-section-week .badge .pr {
+		position: relative;
+		bottom: 0px;
+		top: 25px !important;
+	} 
 }
 
 @media only screen and (min-width: 1366px) and (max-width: 1370px) {
@@ -1976,7 +2070,7 @@ ul.wpra-item-list {
 		right: 90vw !important;
 	}
 	.page-template .navbar-toggler {
-		right: 111.5vw;
+		right: 90vw !important;
 	}
 	nav .navbar-brand {
 		left: 80vw !important;
@@ -2010,6 +2104,37 @@ ul.wpra-item-list {
 		font-size: 17px !important;
 		font-weight: 500;
 	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		position: relative;
+		left: 0%;
+		top: 10px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left {
+		top: 0;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		top: 20px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+		position: relative;
+		bottom: 70px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span {
+		position: relative;
+		right: 0 !important;
+		top: 93px !important; 
+	}
+	#sunday-section-week .badge {
+		position: relative;
+		bottom: 10px;
+	}
+	#sunday-section-week .badge .pr {
+		position: relative;
+		bottom: 0px;
+		top: 25px !important;
+	} 
 }
 
 @media only screen and (min-width: 1112px) and (max-width: 1115px) {
@@ -2045,6 +2170,37 @@ ul.wpra-item-list {
 		font-size: 17px !important;
 		font-weight: 500;
 	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		position: relative;
+		left: 0%;
+		top: 10px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left {
+		top: 0;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		top: 20px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+		position: relative;
+		bottom: 70px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span {
+		position: relative;
+		right: 0 !important;
+		top: 93px !important; 
+	}
+	#sunday-section-week .badge {
+		position: relative;
+		bottom: 10px;
+	}
+	#sunday-section-week .badge .pr {
+		position: relative;
+		bottom: 0px;
+		top: 25px !important;
+	} 
 }
 
 
@@ -2081,6 +2237,37 @@ ul.wpra-item-list {
 		font-size: 17px !important;
 		font-weight: 500;
 	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		position: relative;
+		left: 0%;
+		top: 10px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left {
+		top: 0;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		top: 20px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+		position: relative;
+		bottom: 70px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span {
+		position: relative;
+		right: 0 !important;
+		top: 93px !important; 
+	}
+	#sunday-section-week .badge {
+		position: relative;
+		bottom: 10px;
+	}
+	#sunday-section-week .badge .pr {
+		position: relative;
+		bottom: 0px;
+		top: 25px !important;
+	} 
 }
 
 @media only screen and (min-width: 834px) and (max-width: 840px) {
@@ -2109,6 +2296,32 @@ ul.wpra-item-list {
 		position: relative;
 		right: 64%;
 	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		position: relative;
+		left: 0%;
+		top: 20px;
+		border: 0;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+		position: relative;
+		bottom: 70px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span {
+		position: relative;
+		right: 0 !important;
+		top: 33px !important; 
+	}
+	#sunday-section-week .badge {
+		position: relative;
+		bottom: 10px;
+	}
+	#sunday-section-week .badge .pr {
+		position: relative;
+		bottom: 0px;
+		top: 25px !important;
+	} 
 }
 
 @media only screen and (min-width: 812px) and (max-width: 815px) {
@@ -2137,6 +2350,32 @@ ul.wpra-item-list {
 		position: relative;
 		right: 64%;
 	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		position: relative;
+		left: 0%;
+		top: 20px;
+		border: 0;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+		position: relative;
+		bottom: 70px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span {
+		position: relative;
+		right: 0 !important;
+		top: 33px !important; 
+	}
+	#sunday-section-week .badge {
+		position: relative;
+		bottom: 10px;
+	}
+	#sunday-section-week .badge .pr {
+		position: relative;
+		bottom: 0px;
+		top: 25px !important;
+	} 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1020px) {
@@ -2164,6 +2403,37 @@ ul.wpra-item-list {
 	.fc-next-button {
 		display: none;
 	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		position: relative;
+		left: 0%;
+		top: 10px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left {
+		top: 0;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		top: 20px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+		position: relative;
+		bottom: 70px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span {
+		position: relative;
+		right: 0 !important;
+		top: 93px !important; 
+	}
+	#sunday-section-week .badge {
+		position: relative;
+		bottom: 10px;
+	}
+	#sunday-section-week .badge .pr {
+		position: relative;
+		bottom: 0px;
+		top: 25px !important;
+	} 
 }
 
 @media only screen and (min-width: 736px) and (max-width: 740px) {
@@ -2194,6 +2464,32 @@ ul.wpra-item-list {
 	#privacy-policy-section h1 {
 		font-size: 35px;
 	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		position: relative;
+		left: 0%;
+		top: 20px;
+		border: 0;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+		position: relative;
+		bottom: 70px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span {
+		position: relative;
+		right: 0 !important;
+		top: 33px !important; 
+	}
+	#sunday-section-week .badge {
+		position: relative;
+		bottom: 10px;
+	}
+	#sunday-section-week .badge .pr {
+		position: relative;
+		bottom: 0px;
+		top: 25px !important;
+	} 
 }
 
 @media only screen and (min-width: 667px) and (max-width: 670px) {
@@ -2234,6 +2530,32 @@ ul.wpra-item-list {
 		font-size: 19px !important;
 		font-weight: 500;
 	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		position: relative;
+		left: 0%;
+		top: 20px;
+		border: 0;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+		position: relative;
+		bottom: 70px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span {
+		position: relative;
+		right: 0 !important;
+		top: 33px !important; 
+	}
+	#sunday-section-week .badge {
+		position: relative;
+		bottom: 10px;
+	}
+	#sunday-section-week .badge .pr {
+		position: relative;
+		bottom: 0px;
+		top: 25px !important;
+	} 
 }
 
 @media only screen and (min-width: 568px) and (max-width: 570px) {
@@ -2284,6 +2606,32 @@ ul.wpra-item-list {
 		font-size: 19px !important;
 		font-weight: 500;
 	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		position: relative;
+		left: 0%;
+		top: 20px;
+		border: 0;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+		position: relative;
+		bottom: 70px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span {
+		position: relative;
+		right: 0 !important;
+		top: 33px !important; 
+	}
+	#sunday-section-week .badge {
+		position: relative;
+		bottom: 10px;
+	}
+	#sunday-section-week .badge .pr {
+		position: relative;
+		bottom: 0px;
+		top: 25px !important;
+	} 
 }
 
 @media only screen and (min-width: 425px) and (max-width: 430px) {
@@ -2413,6 +2761,32 @@ ul.wpra-item-list {
 		position: relative;
 		right: 25px;
 	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		position: relative;
+		left: 0%;
+		top: 20px;
+		border: 0;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+		position: relative;
+		bottom: 70px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span {
+		position: relative;
+		right: 0 !important;
+		top: 33px !important; 
+	}
+	#sunday-section-week .badge {
+		position: relative;
+		bottom: 10px;
+	}
+	#sunday-section-week .badge .pr {
+		position: relative;
+		bottom: 0px;
+		top: 25px !important;
+	} 
 }
 
 @media only screen and (min-width: 414px) and (max-width: 420px) {
@@ -2549,6 +2923,32 @@ ul.wpra-item-list {
 	#about h5 {
 		font-size: 18px;
 	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		position: relative;
+		left: 0%;
+		top: 20px;
+		border: 0;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+		position: relative;
+		bottom: 70px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span {
+		position: relative;
+		right: 0 !important;
+		top: 33px !important; 
+	}
+	#sunday-section-week .badge {
+		position: relative;
+		bottom: 10px;
+	}
+	#sunday-section-week .badge .pr {
+		position: relative;
+		bottom: 0px;
+		top: 25px !important;
+	} 
 }
 
 @media only screen and (min-width: 375px) and (max-width: 380px) {
@@ -2658,6 +3058,32 @@ ul.wpra-item-list {
 		font-size: 15px !important;
 		font-weight: 500;
 	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		position: relative;
+		left: 0%;
+		top: 20px;
+		border: 0;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+		position: relative;
+		bottom: 70px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span {
+		position: relative;
+		right: 0 !important;
+		top: 33px !important; 
+	}
+	#sunday-section-week .badge {
+		position: relative;
+		bottom: 10px;
+	}
+	#sunday-section-week .badge .pr {
+		position: relative;
+		bottom: 0px;
+		top: 25px !important;
+	} 
 }
 
 @media only screen and (min-width: 320px) and (max-width: 330px) {
@@ -2783,4 +3209,30 @@ ul.wpra-item-list {
 		font-size: 15px;
 		width: 50%;
 	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num {
+		position: relative;
+		left: 0%;
+		top: 20px;
+		border: 0;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+		position: relative;
+		bottom: 70px;
+	}
+	#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span {
+		position: relative;
+		right: 0 !important;
+		top: 33px !important; 
+	}
+	#sunday-section-week .badge {
+		position: relative;
+		bottom: 10px;
+	}
+	#sunday-section-week .badge .pr {
+		position: relative;
+		bottom: 0px;
+		top: 25px !important;
+	} 
 }

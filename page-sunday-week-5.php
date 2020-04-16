@@ -21,7 +21,7 @@ get_header();
         <div class="card card-body">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <span class="pr">75%</span>
+                    <div class="badge"><span class="pr">75%</span></div>
                     <span class="name">Bengals</span>
                     <span class="num">+6</span>
                 </div>
@@ -34,7 +34,7 @@ get_header();
         <div class="card card-body">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <span class="pr">65%</span>
+                    <div class="badge"><span class="pr">75%</span></div>
                     <span class="name">Jaguars</span>
                     <span class="num">+3</span>
                 </div>
@@ -47,65 +47,156 @@ get_header();
         <div class="card card-body">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <span class="pr"></span>
-                    <span class="name"></span>
-                    <span class="num"></span>
+                    <div class="badge"><span class="pr">75%</span></div>
+                    <span class="name">Raiders</span>
+                    <span class="num">-3</span>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num"></span>
-                    <span class="name"></span>
+                    <span class="num">+3</span>
+                    <span class="name">Chargers</span>
                 </div>
             </div>
         </div>
         <div class="card card-body">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <span class="pr"></span>
-                    <span class="name"></span>
-                    <span class="num"></span>
+                    <div class="badge"><span class="pr">75%</span></div>
+                    <span class="name">Broncos</span>
+                    <span class="num">+3</span>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num"></span>
-                    <span class="name"></span>
+                    <span class="num">-3</span>
+                    <span class="name">Chiefs</span>
                 </div>
             </div>
         </div>
         <div class="card card-body">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <span class="pr"></span>
-                    <span class="name"></span>
-                    <span class="num"></span>
+                    <div class="badge"><span class="pr">75%</span></div>
+                    <span class="name">Steelers</span>
+                    <span class="num">-6</span>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num"></span>
-                    <span class="name"></span>
+                    <span class="num">+6</span>
+                    <span class="name">Browns</span>
                 </div>
             </div>
         </div>
         <div class="card card-body">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <span class="pr"></span>
-                    <span class="name"></span>
-                    <span class="num"></span>
+                    <div class="badge"><span class="pr">75%</span></div>
+                    <span class="name">Seahawks</span>
+                    <span class="num">+3</span>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num"></span>
-                    <span class="name"></span>
+                    <span class="num">-3</span>
+                    <span class="name">49ers</span>
                 </div>
             </div>
         </div>
         <div class="card card-body">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <span class="pr"></span>
-                    <span class="name"></span>
-                    <span class="num"></span>
+                    <div class="badge"><span class="pr">75%</span></div>
+                    <span class="name">Colts</span>
+                    <span class="num">+6</span>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num"></span>
-                    <span class="name"></span>
+                    <span class="num">-6</span>
+                    <span class="name">Texans</span>
+                </div>
+            </div>
+        </div>
+        <div class="card card-body">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 text-left">
+                    <div class="badge"><span class="pr">75%</span></div>
+                    <span class="name">Colts</span>
+                    <span class="num">+6</span>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 text-right">
+                    <span class="num">-6</span>
+                    <span class="name">Texans</span>
+                </div>
+            </div>
+        </div>
+        <div class="card card-body">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 text-left">
+                    <div class="badge"><span class="pr">75%</span></div>
+                    <span class="name">Colts</span>
+                    <span class="num">+6</span>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 text-right">
+                    <span class="num">-6</span>
+                    <span class="name">Texans</span>
+                </div>
+            </div>
+        </div>
+        <div class="card card-body">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 text-left">
+                    <div class="badge"><span class="pr">75%</span></div>
+                    <span class="name">Colts</span>
+                    <span class="num">+6</span>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 text-right">
+                    <span class="num">-6</span>
+                    <span class="name">Texans</span>
+                </div>
+            </div>
+        </div>
+        <div class="card card-body">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 text-left">
+                    <div class="badge"><span class="pr">75%</span></div>
+                    <span class="name">Colts</span>
+                    <span class="num">+6</span>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 text-right">
+                    <span class="num">-6</span>
+                    <span class="name">Texans</span>
+                </div>
+            </div>
+        </div>
+        <div class="card card-body">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 text-left">
+                    <div class="badge"><span class="pr">75%</span></div>
+                    <span class="name">Colts</span>
+                    <span class="num">+6</span>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 text-right">
+                    <span class="num">-6</span>
+                    <span class="name">Texans</span>
+                </div>
+            </div>
+        </div>
+        <div class="card card-body">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 text-left">
+                    <div class="badge"><span class="pr">75%</span></div>
+                    <span class="name">Colts</span>
+                    <span class="num">+6</span>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 text-right">
+                    <span class="num">-6</span>
+                    <span class="name">Texans</span>
+                </div>
+            </div>
+        </div>
+        <div class="card card-body">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 text-left">
+                    <div class="badge"><span class="pr">75%</span></div>
+                    <span class="name">Colts</span>
+                    <span class="num">+6</span>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 text-right">
+                    <span class="num">-6</span>
+                    <span class="name">Texans</span>
                 </div>
             </div>
         </div>
