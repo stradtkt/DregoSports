@@ -1082,6 +1082,11 @@ nav .navbar-brand {
 	width: 100%;
 }
 
+.home .betting h1 {
+	position: relative;
+	top: 0;
+}
+
 .betting {
 	position: relative;
 	right: 32px;
@@ -1345,16 +1350,18 @@ nav .navbar-brand {
 	position: relative;
 	top: 107px !important;
 }
+#sunday-section-week .col-12.col-md-6.col-lg-6.text-left,
 #single-thursday-section .col-12.col-md-6.text-left {
 	border-right: 4px solid #0099dd;
 }
-
+#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num,
 #single-thursday-section .col-12.col-md-6.text-left span.name,
 #single-thursday-section .col-12.col-md-6.text-left span.num {
 	position: relative;
 	left: 50%;
 }
-
+#sunday-section-week .col-12.col-md-6.col-lg-6.text-right span,
 #single-thursday-section .col-12.col-md-6.text-right span {
 	position: relative;
 	right: 66%;
@@ -1958,6 +1965,13 @@ ul.wpra-item-list {
 }
 
 @media only screen and (min-width: 1366px) and (max-width: 1370px) {
+	#sunday-section-week .col-12.col-md-6.col-lg-6 {
+
+	}
+	.page-template-page-sunday-week-5 .navbar-toggler {
+		position: relative;
+		right: 90vw !important;
+	}
 	.home .navbar-toggler {
 		right: 90vw !important;
 	}
@@ -1974,7 +1988,7 @@ ul.wpra-item-list {
 		width: 1370px !important;
 	}
 	.home .betting h1 {
-		top: 250px !important;
+		top: 150px !important;
 	}
 	#plans .sunday-btn {
 		position: relative;
@@ -2688,6 +2702,9 @@ ul.wpra-item-list {
 		font-weight: 600;
 		padding: 10px;
 	}
+	.home .betting h1 {
+		top: 120px;
+	}
 	.betting h1 {
 		font-size: 35px;
 	}
@@ -2695,6 +2712,9 @@ ul.wpra-item-list {
 	.betting p {
 		position: relative;
 		top: 100px;
+	}
+	#privacy-policy-section h1 {
+		font-size: 30px;
 	}
 	nav {
 		margin: 0 !important;

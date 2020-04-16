@@ -22,10 +22,10 @@ get_header();
         <div class="row">
             <div class="col-12">
             <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action active">
+                    <a href="<?php echo site_url('/sunday-october-11th'); ?>" class="list-group-item list-group-item-action active">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">Week 5</h5>
-                            <small class="date">10/8/2020</small>
+                            <small class="date">10/11/2020</small>
                         </div>
                         <small>Click to see bets</small>
                     </a>
