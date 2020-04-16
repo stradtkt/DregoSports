@@ -16,7 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<?php wp_head(); ?>
 </head>
 
@@ -29,7 +29,7 @@
 		<div class="pos-f-t">
   			<div class="collapse" id="navbarToggleExternalContent">
     			<div class="bg-dark p-4 text-center">
-					<div class="logo"></div>
+					<div class="logo nav-logo"></div>
       				<ul class="navbar-nav one">
 						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link text-white">Home</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/about'); ?>" class="nav-link text-white">About</a></li>
@@ -46,7 +46,7 @@
     			</div>
   			</div>
   			<nav class="navbar fixed-top">
-				<a href="" class="navbar-brand text-black">Drego Sports</a>
+				<a href="<?php echo site_url('/'); ?>" class="logo nb"></a>
     			<button id="navbar-tog" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="menu">MENU</span>
     			</button>

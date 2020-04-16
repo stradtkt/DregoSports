@@ -1032,13 +1032,18 @@ nav .navbar-brand {
 }
 
 .logo {
-	background: url('assets/img/logo/Original on Transparent.png');
+	background: url('assets/img/logo/screenshot.png');
 	background-size: cover;
 	height: 50px;
 	width: 50px;
 	margin: 0 auto;
 	box-shadow: 1px 3px 10px white;
 	border-radius: 50%;
+}
+
+.logo.nb {
+	position: relative;
+	left: 45vw;
 }
 
 .navbar-toggler {
@@ -1861,14 +1866,49 @@ ul.wpra-item-list {
 }
 
 @media only screen and (min-width: 1920px) and (max-width: 1925px) {
-	.home .navbar-toggler {
-		right: 92vw !important;
+	.page-template-page-about .navbar-toggler,
+	.page-template-page-contact .navbar-toggler,
+	.page-template-page-login .navbar-toggler,
+	.page-template-page-register .navbar-toggler,
+	.page-template-page-rss .navbar-toggler {
+		right: 80vw;
 	}
-	.page-template .navbar-toggler {
-		right: 118.5vw;
+	.page-template-page-about .logo.nb,
+	.page-template-page-contact .logo.nb,
+	.page-template-page-login .logo.nb,
+	.page-template-page-register .logo.nb,
+	.page-template-page-rss .logo.nb {
+		left: 60vw;
 	}
-	nav .navbar-brand {
-		left: 85vw !important;
+	.logo.nb {
+		left: 65vw;
+	}
+	.page-template-page-about .logo.nav-logo,
+	.page-template-page-contact .logo.nav-logo,
+	.page-template-page-login .logo.nav-logo,
+	.page-template-page-register .logo.nav-logo,
+	.page-template-page-rss .logo.nav-logo {
+		position: relative;
+		right: 59px;
+	}
+	.navbar-toggler {
+		margin: 0 auto;
+		background: gold !important;
+		width: 80px !important;
+		height: 40px !important;
+		position: relative !important;
+		right: 67vw;
+	}
+	.home .bg-dark.p-4 ul li a {
+		position: relative;
+		left: 33px;
+	}
+	.home .betting h1 {
+		position: relative;
+		top: 130px !important;
+	}
+	.bg-dark.p-4 {
+		width: 100%;
 	}
 	.betting h1 {
 		font-size: 88px !important;
@@ -1935,14 +1975,49 @@ ul.wpra-item-list {
 }
 
 @media only screen and (min-width: 1680px) and (max-width: 1685px) {
-	.home .navbar-toggler {
-		right: 92vw !important;
+	.page-template-page-about .navbar-toggler,
+	.page-template-page-contact .navbar-toggler,
+	.page-template-page-login .navbar-toggler,
+	.page-template-page-register .navbar-toggler,
+	.page-template-page-rss .navbar-toggler {
+		right: 80vw;
 	}
-	.page-template .navbar-toggler {
-		right: 118.5vw;
+	.page-template-page-about .logo.nb,
+	.page-template-page-contact .logo.nb,
+	.page-template-page-login .logo.nb,
+	.page-template-page-register .logo.nb,
+	.page-template-page-rss .logo.nb {
+		left: 60vw;
 	}
-	nav .navbar-brand {
-		left: 80vw !important;
+	.logo.nb {
+		left: 65vw;
+	}
+	.page-template-page-about .logo.nav-logo,
+	.page-template-page-contact .logo.nav-logo,
+	.page-template-page-login .logo.nav-logo,
+	.page-template-page-register .logo.nav-logo,
+	.page-template-page-rss .logo.nav-logo {
+		position: relative;
+		right: 59px;
+	}
+	.navbar-toggler {
+		margin: 0 auto;
+		background: gold !important;
+		width: 80px !important;
+		height: 40px !important;
+		position: relative !important;
+		right: 67vw;
+	}
+	.home .bg-dark.p-4 ul li a {
+		position: relative;
+		left: 33px;
+	}
+	.home .betting h1 {
+		position: relative;
+		top: 130px !important;
+	}
+	.bg-dark.p-4 {
+		width: 100%;
 	}
 	.betting h1 {
 		font-size: 88px !important;
@@ -2009,14 +2084,49 @@ ul.wpra-item-list {
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1445px) {
-	.home .navbar-toggler {
-		right: 90vw !important;
+	.page-template-page-about .navbar-toggler,
+	.page-template-page-contact .navbar-toggler,
+	.page-template-page-login .navbar-toggler,
+	.page-template-page-register .navbar-toggler,
+	.page-template-page-rss .navbar-toggler {
+		right: 80vw;
 	}
-	.page-template .navbar-toggler {
-		right: 111.5vw;
+	.page-template-page-about .logo.nb,
+	.page-template-page-contact .logo.nb,
+	.page-template-page-login .logo.nb,
+	.page-template-page-register .logo.nb,
+	.page-template-page-rss .logo.nb {
+		left: 60vw;
 	}
-	nav .navbar-brand {
-		left: 80vw !important;
+	.logo.nb {
+		left: 65vw;
+	}
+	.page-template-page-about .logo.nav-logo,
+	.page-template-page-contact .logo.nav-logo,
+	.page-template-page-login .logo.nav-logo,
+	.page-template-page-register .logo.nav-logo,
+	.page-template-page-rss .logo.nav-logo {
+		position: relative;
+		right: 59px;
+	}
+	.navbar-toggler {
+		margin: 0 auto;
+		background: gold !important;
+		width: 80px !important;
+		height: 40px !important;
+		position: relative !important;
+		right: 67vw;
+	}
+	.home .bg-dark.p-4 ul li a {
+		position: relative;
+		left: 33px;
+	}
+	.home .betting h1 {
+		position: relative;
+		top: 130px !important;
+	}
+	.bg-dark.p-4 {
+		width: 100%;
 	}
 	.betting h1 {
 		font-size: 88px !important;
@@ -2081,21 +2191,49 @@ ul.wpra-item-list {
 }
 
 @media only screen and (min-width: 1366px) and (max-width: 1370px) {
-	#sunday-section-week .col-12.col-md-6.col-lg-6 {
-
+	.page-template-page-about .navbar-toggler,
+	.page-template-page-contact .navbar-toggler,
+	.page-template-page-login .navbar-toggler,
+	.page-template-page-register .navbar-toggler,
+	.page-template-page-rss .navbar-toggler {
+		right: 80vw;
 	}
-	.page-template-page-sunday-week-5 .navbar-toggler {
+	.page-template-page-about .logo.nb,
+	.page-template-page-contact .logo.nb,
+	.page-template-page-login .logo.nb,
+	.page-template-page-register .logo.nb,
+	.page-template-page-rss .logo.nb {
+		left: 60vw;
+	}
+	.logo.nb {
+		left: 65vw;
+	}
+	.page-template-page-about .logo.nav-logo,
+	.page-template-page-contact .logo.nav-logo,
+	.page-template-page-login .logo.nav-logo,
+	.page-template-page-register .logo.nav-logo,
+	.page-template-page-rss .logo.nav-logo {
 		position: relative;
-		right: 90vw !important;
+		right: 59px;
 	}
-	.home .navbar-toggler {
-		right: 90vw !important;
+	.navbar-toggler {
+		margin: 0 auto;
+		background: gold !important;
+		width: 80px !important;
+		height: 40px !important;
+		position: relative !important;
+		right: 67vw;
 	}
-	.page-template .navbar-toggler {
-		right: 90vw !important;
+	.home .bg-dark.p-4 ul li a {
+		position: relative;
+		left: 33px;
 	}
-	nav .navbar-brand {
-		left: 80vw !important;
+	.home .betting h1 {
+		position: relative;
+		top: 130px !important;
+	}
+	.bg-dark.p-4 {
+		width: 100%;
 	}
 	.betting h1 {
 		font-size: 88px !important;
@@ -2160,14 +2298,49 @@ ul.wpra-item-list {
 }
 
 @media only screen and (min-width: 1112px) and (max-width: 1115px) {
-	.home .navbar-toggler {
-		right: 90vw !important;
+	.page-template-page-about .navbar-toggler,
+	.page-template-page-contact .navbar-toggler,
+	.page-template-page-login .navbar-toggler,
+	.page-template-page-register .navbar-toggler,
+	.page-template-page-rss .navbar-toggler {
+		right: 80vw;
 	}
-	.page-template .navbar-toggler {
-		right: 111.5vw;
+	.page-template-page-about .logo.nb,
+	.page-template-page-contact .logo.nb,
+	.page-template-page-login .logo.nb,
+	.page-template-page-register .logo.nb,
+	.page-template-page-rss .logo.nb {
+		left: 60vw;
 	}
-	nav .navbar-brand {
-		left: 75vw !important;
+	.logo.nb {
+		left: 65vw;
+	}
+	.page-template-page-about .logo.nav-logo,
+	.page-template-page-contact .logo.nav-logo,
+	.page-template-page-login .logo.nav-logo,
+	.page-template-page-register .logo.nav-logo,
+	.page-template-page-rss .logo.nav-logo {
+		position: relative;
+		right: 59px;
+	}
+	.navbar-toggler {
+		margin: 0 auto;
+		background: gold !important;
+		width: 80px !important;
+		height: 40px !important;
+		position: relative !important;
+		right: 67vw;
+	}
+	.home .bg-dark.p-4 ul li a {
+		position: relative;
+		left: 33px;
+	}
+	.home .betting h1 {
+		position: relative;
+		top: 130px !important;
+	}
+	.bg-dark.p-4 {
+		width: 100%;
 	}
 	.betting h1 {
 		font-size: 68px;
@@ -2227,14 +2400,49 @@ ul.wpra-item-list {
 
 
 @media only screen and (min-width: 1024px) and (max-width: 1030px) {
-	.home .navbar-toggler {
-		right: 90vw !important;
+	.page-template-page-about .navbar-toggler,
+	.page-template-page-contact .navbar-toggler,
+	.page-template-page-login .navbar-toggler,
+	.page-template-page-register .navbar-toggler,
+	.page-template-page-rss .navbar-toggler {
+		right: 82vw;
 	}
-	.page-template .navbar-toggler {
-		right: 111.5vw;
+	.page-template-page-about .logo.nb,
+	.page-template-page-contact .logo.nb,
+	.page-template-page-login .logo.nb,
+	.page-template-page-register .logo.nb,
+	.page-template-page-rss .logo.nb {
+		left: 60vw;
 	}
-	nav .navbar-brand {
-		left: 75vw !important;
+	.logo.nb {
+		left: 65vw;
+	}
+	.page-template-page-about .logo.nav-logo,
+	.page-template-page-contact .logo.nav-logo,
+	.page-template-page-login .logo.nav-logo,
+	.page-template-page-register .logo.nav-logo,
+	.page-template-page-rss .logo.nav-logo {
+		position: relative;
+		right: 59px;
+	}
+	.navbar-toggler {
+		margin: 0 auto;
+		background: gold !important;
+		width: 80px !important;
+		height: 40px !important;
+		position: relative !important;
+		right: 67vw;
+	}
+	.home .bg-dark.p-4 ul li a {
+		position: relative;
+		left: 33px;
+	}
+	.home .betting h1 {
+		position: relative;
+		top: 130px !important;
+	}
+	.bg-dark.p-4 {
+		width: 100%;
 	}
 	.betting h1 {
 		font-size: 68px;
@@ -2293,11 +2501,49 @@ ul.wpra-item-list {
 }
 
 @media only screen and (min-width: 834px) and (max-width: 840px) {
-	.home .navbar-toggler {
-		right:85vw !important;
+	.page-template-page-about .navbar-toggler,
+	.page-template-page-contact .navbar-toggler,
+	.page-template-page-login .navbar-toggler,
+	.page-template-page-register .navbar-toggler,
+	.page-template-page-rss .navbar-toggler {
+		right: 630px !important;
 	}
-	.page-template .navbar-toggler {
-		right: 107vw;
+	.page-template-page-about .logo.nb,
+	.page-template-page-contact .logo.nb,
+	.page-template-page-login .logo.nb,
+	.page-template-page-register .logo.nb,
+	.page-template-page-rss .logo.nb {
+		left: 60vw;
+	}
+	.logo.nb {
+		left: 65vw;
+	}
+	.page-template-page-about .logo.nav-logo,
+	.page-template-page-contact .logo.nav-logo,
+	.page-template-page-login .logo.nav-logo,
+	.page-template-page-register .logo.nav-logo,
+	.page-template-page-rss .logo.nav-logo {
+		position: relative;
+		right: 59px;
+	}
+	.navbar-toggler {
+		margin: 0 auto;
+		background: gold !important;
+		width: 80px !important;
+		height: 40px !important;
+		position: relative !important;
+		right: 500px !important;
+	}
+	.home .bg-dark.p-4 ul li a {
+		position: relative;
+		left: 33px;
+	}
+	.home .betting h1 {
+		position: relative;
+		top: 130px !important;
+	}
+	.bg-dark.p-4 {
+		width: 100%;
 	}
 	.betting {
 		width: 840px !important;
@@ -2347,11 +2593,49 @@ ul.wpra-item-list {
 }
 
 @media only screen and (min-width: 812px) and (max-width: 815px) {
-	.home .navbar-toggler {
-		right:85vw !important;
+	.page-template-page-about .navbar-toggler,
+	.page-template-page-contact .navbar-toggler,
+	.page-template-page-login .navbar-toggler,
+	.page-template-page-register .navbar-toggler,
+	.page-template-page-rss .navbar-toggler {
+		right: 610px !important;
 	}
-	.page-template .navbar-toggler {
-		right: 107vw;
+	.page-template-page-about .logo.nb,
+	.page-template-page-contact .logo.nb,
+	.page-template-page-login .logo.nb,
+	.page-template-page-register .logo.nb,
+	.page-template-page-rss .logo.nb {
+		left: 60vw;
+	}
+	.logo.nb {
+		left: 65vw;
+	}
+	.page-template-page-about .logo.nav-logo,
+	.page-template-page-contact .logo.nav-logo,
+	.page-template-page-login .logo.nav-logo,
+	.page-template-page-register .logo.nav-logo,
+	.page-template-page-rss .logo.nav-logo {
+		position: relative;
+		right: 59px;
+	}
+	.navbar-toggler {
+		margin: 0 auto;
+		background: gold !important;
+		width: 80px !important;
+		height: 40px !important;
+		position: relative !important;
+		right: 460px;
+	}
+	.home .bg-dark.p-4 ul li a {
+		position: relative;
+		left: 33px;
+	}
+	.home .betting h1 {
+		position: relative;
+		top: 130px !important;
+	}
+	.bg-dark.p-4 {
+		width: 100%;
 	}
 	.betting {
 		width: 815px !important;
@@ -2401,14 +2685,49 @@ ul.wpra-item-list {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1020px) {
-	.home .navbar-toggler {
-		right:85vw !important;
+	.page-template-page-about .navbar-toggler,
+	.page-template-page-contact .navbar-toggler,
+	.page-template-page-login .navbar-toggler,
+	.page-template-page-register .navbar-toggler,
+	.page-template-page-rss .navbar-toggler {
+		right: 580px;
 	}
-	.page-template .navbar-toggler {
-		right: 107vw;
+	.page-template-page-about .logo.nb,
+	.page-template-page-contact .logo.nb,
+	.page-template-page-login .logo.nb,
+	.page-template-page-register .logo.nb,
+	.page-template-page-rss .logo.nb {
+		left: 60vw;
 	}
-	nav .navbar-brand {
-		left: 70vw !important;
+	.logo.nb {
+		left: 65vw;
+	}
+	.page-template-page-about .logo.nav-logo,
+	.page-template-page-contact .logo.nav-logo,
+	.page-template-page-login .logo.nav-logo,
+	.page-template-page-register .logo.nav-logo,
+	.page-template-page-rss .logo.nav-logo {
+		position: relative;
+		right: 59px;
+	}
+	.navbar-toggler {
+		margin: 0 auto;
+		background: gold !important;
+		width: 80px !important;
+		height: 40px !important;
+		position: relative !important;
+		right: 460px;
+	}
+	.home .bg-dark.p-4 ul li a {
+		position: relative;
+		left: 33px;
+	}
+	.home .betting h1 {
+		position: relative;
+		top: 130px !important;
+	}
+	.bg-dark.p-4 {
+		width: 100%;
 	}
 	.betting h1 {
 		font-size: 68px;
@@ -2459,14 +2778,49 @@ ul.wpra-item-list {
 }
 
 @media only screen and (min-width: 736px) and (max-width: 740px) {
-	.home .navbar-toggler {
-		right:82vw !important;
+	.page-template-page-about .navbar-toggler,
+	.page-template-page-contact .navbar-toggler,
+	.page-template-page-login .navbar-toggler,
+	.page-template-page-register .navbar-toggler,
+	.page-template-page-rss .navbar-toggler {
+		right: 580px;
 	}
-	.page-template .navbar-toggler {
-		right: 104vw;
+	.page-template-page-about .logo.nb,
+	.page-template-page-contact .logo.nb,
+	.page-template-page-login .logo.nb,
+	.page-template-page-register .logo.nb,
+	.page-template-page-rss .logo.nb {
+		left: 60vw;
 	}
-	nav .navbar-brand {
-		left: 70vw !important;
+	.logo.nb {
+		left: 65vw;
+	}
+	.page-template-page-about .logo.nav-logo,
+	.page-template-page-contact .logo.nav-logo,
+	.page-template-page-login .logo.nav-logo,
+	.page-template-page-register .logo.nav-logo,
+	.page-template-page-rss .logo.nav-logo {
+		position: relative;
+		right: 59px;
+	}
+	.navbar-toggler {
+		margin: 0 auto;
+		background: gold !important;
+		width: 80px !important;
+		height: 40px !important;
+		position: relative !important;
+		right: 460px;
+	}
+	.home .bg-dark.p-4 ul li a {
+		position: relative;
+		left: 33px;
+	}
+	.home .betting h1 {
+		position: relative;
+		top: 130px !important;
+	}
+	.bg-dark.p-4 {
+		width: 100%;
 	}
 	.betting h1 {
 		font-size: 48px;
@@ -2515,19 +2869,45 @@ ul.wpra-item-list {
 }
 
 @media only screen and (min-width: 667px) and (max-width: 670px) {
-	.home .navbar-toggler {
-		right:75vw !important;
+	.page-template-page-about .navbar-toggler,
+	.page-template-page-contact .navbar-toggler,
+	.page-template-page-login .navbar-toggler,
+	.page-template-page-register .navbar-toggler,
+	.page-template-page-rss .navbar-toggler {
+		right: 520px;
 	}
-	.page-template .navbar-toggler {
-		right: 97vw;
+	.page-template-page-about .logo.nb,
+	.page-template-page-contact .logo.nb,
+	.page-template-page-login .logo.nb,
+	.page-template-page-register .logo.nb,
+	.page-template-page-rss .logo.nb {
+		left: 60vw;
 	}
-	nav .navbar-brand {
-		left: 60vw !important;
+	.logo.nb {
+		left: 65vw;
+	}
+	.navbar-toggler {
+		margin: 0 auto;
+		background: gold !important;
+		width: 80px !important;
+		height: 40px !important;
+		position: relative !important;
+		right: 423px;
+	}
+	.home .bg-dark.p-4 ul li a {
+		position: relative;
+		left: 33px;
+	}
+	.home .betting h1 {
+		position: relative;
+		top: 150px;
 	}
 	.betting h1 {
 		font-size: 48px;
 	}
-
+	.bg-dark.p-4 {
+		width: 100%;
+	}
 	#plans .card:not(.blue) {
 		position: relative;
 		left: 10px;
@@ -2536,13 +2916,17 @@ ul.wpra-item-list {
 		position: relative;
 		right: 10px;
 	}
-
+	.page-template-page-about .logo.nav-logo,
+	.page-template-page-contact .logo.nav-logo,
+	.page-template-page-login .logo.nav-logo,
+	.page-template-page-register .logo.nav-logo,
+	.page-template-page-rss .logo.nav-logo {
+		position: relative;
+		right: 43px;
+	}
 	.site-footer ul li a {
 		position: relative;
 		right: 32%;
-	}
-	.home .betting h1 {
-
 	}
 
 	#privacy-policy-section h1 {
@@ -2581,17 +2965,51 @@ ul.wpra-item-list {
 }
 
 @media only screen and (min-width: 568px) and (max-width: 570px) {
-	.home .navbar-toggler {
-		right: 76vw !important;
+	.page-template-page-about .navbar-toggler,
+	.page-template-page-contact .navbar-toggler,
+	.page-template-page-login .navbar-toggler,
+	.page-template-page-register .navbar-toggler,
+	.page-template-page-rss .navbar-toggler {
+		right: 430px;
 	}
-	.page-template .navbar-toggler {
-		right: 97vw;
+	.page-template-page-about .logo.nb,
+	.page-template-page-contact .logo.nb,
+	.page-template-page-login .logo.nb,
+	.page-template-page-register .logo.nb,
+	.page-template-page-rss .logo.nb {
+		left: 60vw;
 	}
-	nav .navbar-brand {
-		left: 60vw !important;
+	.logo.nb {
+		left: 65vw;
+	}
+	.navbar-toggler {
+		margin: 0 auto;
+		background: gold !important;
+		width: 80px !important;
+		height: 40px !important;
+		position: relative !important;
+		right: 343px;
 	}
 	.betting {
 		width: 570px !important;
+	}
+	.home .betting h1 {
+		top: 150px;
+	}
+	.bg-dark.p-4 {
+		width: 100%;
+	}
+	.page-template-page-about .logo.nav-logo,
+	.page-template-page-contact .logo.nav-logo,
+	.page-template-page-login .logo.nav-logo,
+	.page-template-page-register .logo.nav-logo,
+	.page-template-page-rss .logo.nav-logo {
+		position: relative;
+		right: 38px;
+	}
+	.home .bg-dark.p-4 ul li a {
+		position: relative;
+		left: 30px;
 	}
 	.betting h1 {
 		font-size: 48px;
@@ -2657,14 +3075,30 @@ ul.wpra-item-list {
 }
 
 @media only screen and (min-width: 425px) and (max-width: 430px) {
-	.home .navbar-toggler {
-		position: relative;
-		right: 5px !important;
+	.page-template-page-about .navbar-toggler,
+	.page-template-page-contact .navbar-toggler,
+	.page-template-page-login .navbar-toggler,
+	.page-template-page-register .navbar-toggler,
+	.page-template-page-rss .navbar-toggler {
+		right: 315px;
+	}
+	.page-template-page-about .logo.nb,
+	.page-template-page-contact .logo.nb,
+	.page-template-page-login .logo.nb,
+	.page-template-page-register .logo.nb,
+	.page-template-page-rss .logo.nb {
+		left: 59vw;
+	}
+	.logo.nb {
+		left: 65vw;
 	}
 	.navbar-toggler {
 		margin: 0 auto;
-		position: relative;
-		right: 38px;
+		background: gold !important;
+		width: 80px !important;
+		height: 40px !important;
+		position: relative !important;
+		right: 253px;
 	}
 	.betting {
 		right: 30px;
@@ -2689,7 +3123,7 @@ ul.wpra-item-list {
 		font-weight: 600;
 	}
 	.betting h1 {
-		font-size: 30px;
+		font-size: 45px;
 		position: relative;
 		top: 150px !important;
 	}
@@ -2697,6 +3131,9 @@ ul.wpra-item-list {
 	.betting p {
 		position: relative;
 		top: 100px;
+	}
+	#privacy-policy-section h1 {
+		font-size: 35px;
 	}
 	nav {
 		margin: 0 !important;
@@ -2812,14 +3249,30 @@ ul.wpra-item-list {
 }
 
 @media only screen and (min-width: 414px) and (max-width: 420px) {
-	.home .navbar-toggler {
-		position: relative;
-		right: 5px !important;
+	.page-template-page-about .navbar-toggler,
+	.page-template-page-contact .navbar-toggler,
+	.page-template-page-login .navbar-toggler,
+	.page-template-page-register .navbar-toggler,
+	.page-template-page-rss .navbar-toggler {
+		right: 300px;
+	}
+	.page-template-page-about .logo.nb,
+	.page-template-page-contact .logo.nb,
+	.page-template-page-login .logo.nb,
+	.page-template-page-register .logo.nb,
+	.page-template-page-rss .logo.nb {
+		left: 57vw;
+	}
+	.logo.nb {
+		left: 63vw;
 	}
 	.navbar-toggler {
 		margin: 0 auto;
-		position: relative;
-		right: 38px;
+		background: gold !important;
+		width: 80px !important;
+		height: 40px !important;
+		position: relative !important;
+		right: 240px;
 	}
 	.betting {
 		right: 30px;
@@ -2863,6 +3316,9 @@ ul.wpra-item-list {
 	}
 	#plans .plans-hr {
 		left: 10%;
+	}
+	#privacy-policy-section h1 {
+		font-size: 30px;
 	}
 
 	.panel-title {
@@ -2974,14 +3430,30 @@ ul.wpra-item-list {
 }
 
 @media only screen and (min-width: 375px) and (max-width: 380px) {
-	.home .navbar-toggler {
-		position: relative;
-		right: 5px !important;
+	.page-template-page-about .navbar-toggler,
+	.page-template-page-contact .navbar-toggler,
+	.page-template-page-login .navbar-toggler,
+	.page-template-page-register .navbar-toggler,
+	.page-template-page-rss .navbar-toggler {
+		right: 250px;
+	}
+	.page-template-page-about .logo.nb,
+	.page-template-page-contact .logo.nb,
+	.page-template-page-login .logo.nb,
+	.page-template-page-register .logo.nb,
+	.page-template-page-rss .logo.nb {
+		left: 59vw;
+	}
+	.logo.nb {
+		left: 62vw;
 	}
 	.navbar-toggler {
 		margin: 0 auto;
-		position: relative;
-		right: 30px;
+		background: gold !important;
+		width: 80px !important;
+		height: 40px !important;
+		position: relative !important;
+		right: 210px;
 	}
 	.betting {
 		right: 30px;
@@ -3006,7 +3478,7 @@ ul.wpra-item-list {
 		font-weight: 600;
 	}
 	.betting h1 {
-		font-size: 30px;
+		font-size: 35px;
 		position: relative;
 		top: 150px !important;
 	}
@@ -3036,7 +3508,9 @@ ul.wpra-item-list {
 		font-weight: 700 !important;
 		font-size: 20px !important;
 	}
-
+	#privacy-policy-section h1 {
+		font-size: 30px;
+	}
 	#wp-calendar {
 		background: rgba(255,255,255,0.3);
 
@@ -3109,23 +3583,30 @@ ul.wpra-item-list {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 330px) {
-	.home .navbar-toggler {
-		position: relative;
-		right: 5px !important;
+	.page-template-page-about .navbar-toggler,
+	.page-template-page-contact .navbar-toggler,
+	.page-template-page-login .navbar-toggler,
+	.page-template-page-register .navbar-toggler,
+	.page-template-page-rss .navbar-toggler {
+		right: 200px;
 	}
-
+	.page-template-page-about .logo.nb,
+	.page-template-page-contact .logo.nb,
+	.page-template-page-login .logo.nb,
+	.page-template-page-register .logo.nb,
+	.page-template-page-rss .logo.nb {
+		left: 57vw;
+	}
+	.logo.nb {
+		left: 60vw;
+	}
 	.navbar-toggler {
 		margin: 0 auto;
 		background: gold !important;
 		width: 80px !important;
 		height: 40px !important;
 		position: relative !important;
-		right: 20px !important;
-		box-shadow: 1px 3px 10px #222;
-		-webkit-box-shadow: 1px 3px 10px #222;
-		-moz-box-shadow: 1px 3px 10px #222;
-		-ms-box-shadow: 1px 3px 10px #222;
-		-o-box-shadow: 1px 3px 10px #222;
+		right: 170px;
 	}
 	.betting {
 		right: 30px;
