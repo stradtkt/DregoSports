@@ -29,6 +29,7 @@
 		<div class="pos-f-t">
   			<div class="collapse" id="navbarToggleExternalContent">
     			<div class="bg-dark p-4 text-center">
+					<div class="logo"></div>
       				<ul class="navbar-nav one">
 						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link text-white">Home</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/about'); ?>" class="nav-link text-white">About</a></li>
@@ -46,7 +47,7 @@
   			</div>
   			<nav class="navbar fixed-top">
 				<a href="" class="navbar-brand text-black">Drego Sports</a>
-    			<button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+    			<button id="navbar-tog" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="menu">MENU</span>
     			</button>
   			</nav>

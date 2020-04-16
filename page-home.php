@@ -262,6 +262,48 @@ get_header();
             </div>
         </div>
         </div>
+        <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFive">
+            <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <strong>When is it smart to purchase the numbers for the game that I am selecting?</strong>
+            </a>
+        </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+            <div class="panel-body">
+            We will send our last update for the games that are on that day within 15 minutes prior to game time.  We suggest that you look at the games within that timeframe so you can make the most accurate bet.
+            </div>
+        </div>
+        </div>
+        <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingSix">
+            <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            <strong>When is it smart to purchase the numbers for the game that I am selecting?</strong>
+            </a>
+        </h4>
+        </div>
+        <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+            <div class="panel-body">
+            We will send our last update for the games that are on that day within 15 minutes prior to game time.  We suggest that you look at the games within that timeframe so you can make the most accurate bet.
+            </div>
+        </div>
+        </div>
+        <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingSeven">
+            <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            <strong>When is it smart to purchase the numbers for the game that I am selecting?</strong>
+            </a>
+        </h4>
+        </div>
+        <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+            <div class="panel-body">
+            We will send our last update for the games that are on that day within 15 minutes prior to game time.  We suggest that you look at the games within that timeframe so you can make the most accurate bet.
+            </div>
+        </div>
+        </div>
     </div>
 </div>
 </section>

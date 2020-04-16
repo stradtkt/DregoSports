@@ -37,6 +37,17 @@
 					</ul>
 				</div>
 				<div class="col-12 col-sm-12 col-md-4 text-center mt-3">
+					<p class="lead">Accepted Methods Of Payment</p>
+					<p class="payment">
+						<i class="fab fa-cc-visa"></i>
+						<i class="fab fa-cc-mastercard"></i>
+						<i class="fab fa-cc-amex"></i>
+						<i class="fab fa-cc-discover"></i>
+						<i class="fab fa-cc-diners-club"></i>
+						<i class="fab fa-cc-jcb"></i>
+						<i class="fab fa-cc-paypal"></i>
+					</p>
+					<p><div class="logo"></div></p>
 					<p><small>&copy; Drego Sports, 2020.</small></p>
 					<p>
 						<a href=""><i class="fab fa-youtube"></i></a>
