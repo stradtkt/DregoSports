@@ -36,7 +36,7 @@ get_header();
             <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
                     <div class="card-header text-center">
-                        <h1>Free</h1>
+                        <h1>FREE</h1>
                         <p class="card-title">Thursday</p>
                         <hr class="plans-hr">
                     </div>
@@ -54,7 +54,7 @@ get_header();
             <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="card blue">
                     <div class="card-header text-center">
-                        <h1>Free</h1>
+                        <h1>FREE</h1>
                         <p class="card-title">Monday</p>
                         <hr class="plans-hr">
                     </div>
@@ -72,7 +72,7 @@ get_header();
             <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
                     <div class="card-header text-center">
-                        <h1>Free</h1>
+                        <h1>FREE</h1>
                         <p class="card-title">Sunday</p>
                         <hr class="plans-hr">
                     </div>
@@ -92,7 +92,7 @@ get_header();
             <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="card blue">
                     <div class="card-header text-center">
-                        <h1>Free</h1>
+                        <h1>FREE</h1>
                         <p class="card-title">All Week</p>
                         <hr class="plans-hr">
                     </div>
@@ -124,7 +124,7 @@ get_header();
             <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                     <p class="text-center"><i class="fas fa-money-bill-alt"></i></p>
                     <h4 class="text-center"><strong>More Accurate Predictions</strong></h4>
-                    <p class="text-center">Have more accurate predictions than competing sites.  Our results and numbers have cme from thorough analysis and trials before we actually give you the correct numbers.</p>
+                    <p class="text-center">Have more accurate predictions than competing sites.  Our results and numbers have come from thorough analysis and trials before we actually give you the correct numbers.</p>
             </div>
             <div class="ccol-12 col-sm-6 col-md-6 col-lg-3">
                     <p class="text-center"><i class="fab fa-cc-stripe"></i><i class="fab fa-cc-paypal"></i></p>
@@ -203,7 +203,7 @@ get_header();
 
 <hr class="hr">
 
-<section id="faq" class=" mt-5 mb-5">
+<!-- <section id="faq" class=" mt-5 mb-5">
 <div class="container">
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="false">
         <div class="panel panel-default">
@@ -306,6 +306,47 @@ get_header();
         </div>
     </div>
 </div>
+</section> -->
+
+<section id="faq-section" class="mt-5 mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+            <div id="accordion">
+                <h3><strong>Do you really have daily updates?</strong></h3>
+                <div>
+                    <p>
+                    Yes we do.  We have been taking this whole year to provide the best stats you could possibly come up with.
+                    </p>
+                </div>
+                <h3><strong>Is your website secure?</strong></h3>
+                <div>
+                    <p>
+                    Yes it is secure.  We use certain methods and products that makes our website more secure so you do not have to worry about unwanted visitors when you come to our site.  Our checkout goes through stripe and paypal and they are some of the biggest names in the industry.
+                    </p>
+                </div>
+                <h3><strong>Is this a one-time payment or a monthly payment?</strong></h3>
+                <div>
+                    <p>
+                    At start our website will be free to use.  Once we start collecting payments it will be around $10-$50 dollars per week.
+                    </p>
+                    <ul>
+                    <li><strong>Thursday: </strong> $10</li>
+                    <li><strong>Monday: </strong> $10</li>
+                    <li><strong>Sunday: </strong> $30</li>
+                    <li><strong>All Week: </strong> $50</li>
+                    </ul>
+                </div>
+                <h3><strong>When is it smart to purchase the numbers for the game that I am selecting?</strong></h3>
+                <div>
+                    <p>
+                    We will send our last update for the games that are on that day within 15 minutes prior to game time.  We suggest that you look at the games within that timeframe so you can make the most accurate bet.
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <?php

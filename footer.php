@@ -32,8 +32,7 @@
 					<ul>
 						<li class="nav-item"><a href="<?php echo site_url('/login'); ?>" class="nav-link">Login</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/register'); ?>" class="nav-link">Register</a></li>
-						<li class="nav-item"><a href="<?php echo site_url('/thursday'); ?>" class="nav-link">Thursday</a></li>
-						<li class="nav-item"><a href="<?php echo site_url('/sunday'); ?>" class="nav-link">Sunday</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/RSS'); ?>" class="nav-link">RSS</a></li>
 					</ul>
 				</div>
 				<div class="col-12 col-sm-12 col-md-4 text-center mt-3">

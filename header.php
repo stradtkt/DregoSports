@@ -30,19 +30,18 @@
   			<div class="collapse" id="navbarToggleExternalContent">
     			<div class="bg-dark p-4 text-center">
 					<div class="logo nav-logo"></div>
-      				<ul class="navbar-nav one">
-						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link text-white">Home</a></li>
-						<li class="nav-item"><a href="<?php echo site_url('/about'); ?>" class="nav-link text-white">About</a></li>
-						<li class="nav-item"><a href="<?php echo site_url('/contact'); ?>" class="nav-link text-white">Contact</a></li>
+      				<ul class="navbar-nav one text-center">
+						<li class="nav-item"><a href="<?php echo site_url('/'); ?>" class="nav-link">Home</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/about'); ?>" class="nav-link">About</a></li>
 					</ul>
-					<ul class="navbar-nav two">
+					<ul class="navbar-nav two text-center">
 						<li class="nav-item"><a href="<?php echo site_url('/login'); ?>" class="nav-link">Login</a></li>
 						<li class="nav-item"><a href="<?php echo site_url('/register'); ?>" class="nav-link">Register</a></li>
-						<li class="nav-item"><a href="<?php echo site_url('/RSS'); ?>" class="nav-link">RSS</a></li>
 					</ul>
-					<!-- <ul class="navbar-nav three">
-						<li class="nav-item"><a href="<?php echo site_url('/sunday-list'); ?>" class="nav-link">Sunday List</a></li>
-					</ul> -->
+					<ul class="navbar-nav three text-center">
+						<li class="nav-item"><a href="<?php echo site_url('/RSS'); ?>" class="nav-link">RSS</a></li>
+						<li class="nav-item"><a href="<?php echo site_url('/contact'); ?>" class="nav-link">Contact</a></li>
+					</ul>
     			</div>
   			</div>
   			<nav class="navbar fixed-top">

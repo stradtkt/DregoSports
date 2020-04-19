@@ -130,6 +130,7 @@ function drego_sports_scripts() {
 	wp_enqueue_style('now-ui-style', get_template_directory_uri() . '/assets/css/now-ui-kit.min.css');
 	wp_enqueue_style('fa-style', '//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css');
 	wp_enqueue_script('jquery', get_template_directory_uri() . '/assets/js/core/jquery.min.js', array('jquery'), true);
+	wp_enqueue_script('jquery-ui', '//code.jquery.com/ui/1.12.1/jquery-ui.js');
 	wp_enqueue_script('popper-js', get_template_directory_uri() . '/assets/js/core/popper.min.js');
 	wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/assets/js/core/bootstrap.min.js');
 	wp_enqueue_script('now-ui-js', get_template_directory_uri() . '/assets/js/now-ui-kit.min.js');
