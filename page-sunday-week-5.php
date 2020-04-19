@@ -20,183 +20,36 @@ get_header();
     <div class="container">
         <div class="card card-body">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <div class="badge"><span class="pr">75%</span></div>
-                    <span class="name">Bengals</span>
-                    <span class="num">+6</span>
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2 text-left">
+                    <p class="spread-title">GAME</p>
+                    <div class="away"><span class="name">CIN</span><span class="score"></span></div>
+                    <div class="home"><span class="name">BAL</span><span class="score"></span></div>
+                    <div class="time text-center">1:15PM EST</div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num">-6</span>
-                    <span class="name">Ravens</span>
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2 text-center">
+                    <p class="spread-title">CONFIDENCE</p>
+                    <p class="num">25%</p>
+                    <p class="num">75%</p>
                 </div>
-            </div>
-        </div>
-        <div class="card card-body">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <div class="badge"><span class="pr">75%</span></div>
-                    <span class="name">Jaguars</span>
-                    <span class="num">+3</span>
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2 text-center">
+                    <p class="spread-title">OPENER</p>
+                    <p class="num">+6</p>
+                    <p class="num">-6</p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num">-3</span>
-                    <span class="name">Titans</span>
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2 text-center">
+                    <p class="spread-title">CONSENSUS</p>
+                    <p class="num">+6</p>
+                    <p class="num">-6</p>
                 </div>
-            </div>
-        </div>
-        <div class="card card-body">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <div class="badge"><span class="pr">75%</span></div>
-                    <span class="name">Raiders</span>
-                    <span class="num">-3</span>
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2 text-center">
+                    <p class="spread-title">DraftKings</p>
+                    <p class="num">-3</p>
+                    <p class="num">+3</p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num">+3</span>
-                    <span class="name">Chargers</span>
-                </div>
-            </div>
-        </div>
-        <div class="card card-body">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <div class="badge"><span class="pr">75%</span></div>
-                    <span class="name">Broncos</span>
-                    <span class="num">+3</span>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num">-3</span>
-                    <span class="name">Chiefs</span>
-                </div>
-            </div>
-        </div>
-        <div class="card card-body">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <div class="badge"><span class="pr">75%</span></div>
-                    <span class="name">Steelers</span>
-                    <span class="num">-6</span>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num">+6</span>
-                    <span class="name">Browns</span>
-                </div>
-            </div>
-        </div>
-        <div class="card card-body">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <div class="badge"><span class="pr">75%</span></div>
-                    <span class="name">Seahawks</span>
-                    <span class="num">+3</span>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num">-3</span>
-                    <span class="name">49ers</span>
-                </div>
-            </div>
-        </div>
-        <div class="card card-body">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <div class="badge"><span class="pr">75%</span></div>
-                    <span class="name">Colts</span>
-                    <span class="num">+6</span>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num">-6</span>
-                    <span class="name">Texans</span>
-                </div>
-            </div>
-        </div>
-        <div class="card card-body">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <div class="badge"><span class="pr">75%</span></div>
-                    <span class="name">Colts</span>
-                    <span class="num">+6</span>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num">-6</span>
-                    <span class="name">Texans</span>
-                </div>
-            </div>
-        </div>
-        <div class="card card-body">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <div class="badge"><span class="pr">75%</span></div>
-                    <span class="name">Colts</span>
-                    <span class="num">+6</span>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num">-6</span>
-                    <span class="name">Texans</span>
-                </div>
-            </div>
-        </div>
-        <div class="card card-body">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <div class="badge"><span class="pr">75%</span></div>
-                    <span class="name">Colts</span>
-                    <span class="num">+6</span>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num">-6</span>
-                    <span class="name">Texans</span>
-                </div>
-            </div>
-        </div>
-        <div class="card card-body">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <div class="badge"><span class="pr">75%</span></div>
-                    <span class="name">Colts</span>
-                    <span class="num">+6</span>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num">-6</span>
-                    <span class="name">Texans</span>
-                </div>
-            </div>
-        </div>
-        <div class="card card-body">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <div class="badge"><span class="pr">75%</span></div>
-                    <span class="name">Colts</span>
-                    <span class="num">+6</span>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num">-6</span>
-                    <span class="name">Texans</span>
-                </div>
-            </div>
-        </div>
-        <div class="card card-body">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <div class="badge"><span class="pr">75%</span></div>
-                    <span class="name">Colts</span>
-                    <span class="num">+6</span>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num">-6</span>
-                    <span class="name">Texans</span>
-                </div>
-            </div>
-        </div>
-        <div class="card card-body">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 text-left">
-                    <div class="badge"><span class="pr">75%</span></div>
-                    <span class="name">Colts</span>
-                    <span class="num">+6</span>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 text-right">
-                    <span class="num">-6</span>
-                    <span class="name">Texans</span>
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2 text-center">
+                    <p class="spread-title">FanDuel</p>
+                    <p class="num">-3</p>
+                    <p class="num">+3</p>
                 </div>
             </div>
         </div>

@@ -1299,6 +1299,7 @@ nav button {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 	font-size: 18px;
+	box-shadow: 1px 3px 10px #222;;
 }
 
 #plans .plans-hr {
@@ -1339,12 +1340,39 @@ nav button {
 	background: #0099dd;
 	color: white;
 }
-
-#sunday-section-week .col-12.col-md-6.col-lg-6.text-left,
-#single-thursday-section .col-12.col-md-6.text-left {
+#sunday-section-week p {
+	padding: 0;
+	margin: 0;
+}
+#sunday-section-week .name {
+	text-align: left;
+	font-weight: 400;
+}
+#sunday-section-week .num {
+	font-weight: 400;
+}
+#sunday-section-week .time {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	padding: 3px;
+	border: 2px solid #0099dd;
+}
+#sunday-section-week .score {
+	position: relative;
+	bottom: 1px;
+	left: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+#sunday-section-week .col-2.col-sm-2.col-md-2.col-lg-2.text-left {
 	border-right: 4px solid #0099dd;
 }
-#sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
+.spread-title {
+	font-family: 'Overpass', sans-serif;
+	font-weight: 900;
+
+}
+/* #sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.name,
 #sunday-section-week .col-12.col-md-6.col-lg-6.text-left span.num,
 #single-thursday-section .col-12.col-md-6.text-left span.name,
 #single-thursday-section .col-12.col-md-6.text-left span.num {
@@ -1357,23 +1385,15 @@ nav button {
 	position: relative;
 	right: 66%;
 	top: 26px;
-}
-.pr {
+} */
+/* .pr {
 	color: #000;
 	font-weight: 700;
 	font-family: 'Oswald', sans-serif;
 	font-size: 22px;
 	position: relative;
 	top: 26px;
-}
-
-.badge {
-	background: url('assets/img/badge.png');
-	background-size: cover;
-	height: 70px;
-	width: 70px;
-	margin: 0;
-}
+} */
 
 .card.blue .btn {
 	background: white !important;
@@ -1951,7 +1971,8 @@ ul.wpra-item-list {
 		font-size: 15px;
 	}
 	.home .betting h1 {
-		top: 170px;
+		position: relative;
+		top: 25vh;
 	}
 	.fc-day-header {
 		font-size: 18px !important;
@@ -2072,7 +2093,7 @@ ul.wpra-item-list {
 	.betting h1 {
 		font-size: 88px !important;
 		position: relative;
-		top: 170px;
+		top: 25vh;
 	}
 	.betting {
 		width: 1685px !important;
@@ -2091,7 +2112,8 @@ ul.wpra-item-list {
 		font-size: 15px;
 	}
 	.home .betting h1 {
-		top: 170px;
+		position: relative;
+		top: 25vh;
 	}
 	.fc-day-header {
 		font-size: 17px !important;
@@ -2182,7 +2204,7 @@ ul.wpra-item-list {
 	}
 	.home .betting h1 {
 		position: relative;
-		top: 130px;
+		top: 25vh;
 	}
 	.bg-dark.p-4 {
 		width: 27%;
@@ -2190,6 +2212,8 @@ ul.wpra-item-list {
 	}
 	.betting h1 {
 		font-size: 88px !important;
+		position: relative;
+		top: 25vh;
 	}
 	.betting {
 		width: 1445px !important;
@@ -2345,6 +2369,8 @@ ul.wpra-item-list {
 	}
 	.betting h1 {
 		font-size: 88px !important;
+		position: relative;
+		top: 25vh;
 	}
 	.betting {
 		width: 1370px !important;
@@ -2359,7 +2385,8 @@ ul.wpra-item-list {
 		font-size: 15px;
 	}
 	.home .betting h1 {
-		top: 170px;
+		position: relative;
+		top: 25vh;
 	}
 	.fc-day-header {
 		font-size: 18px !important;
@@ -2450,7 +2477,7 @@ ul.wpra-item-list {
 	}
 	.home .betting h1 {
 		position: relative;
-		top: 130px;
+		top: 25vh;
 	}
 	#plans .card {
 		height: 650px;
@@ -2479,6 +2506,8 @@ ul.wpra-item-list {
 	}
 	.betting h1 {
 		font-size: 68px;
+		position: relative;
+		top: 25vh;
 	}
 	#plans .sunday-btn {
 		position: relative;
@@ -2582,7 +2611,7 @@ ul.wpra-item-list {
 	}
 	.home .betting h1 {
 		position: relative;
-		top: 130px;
+		top: 25vh;
 	}
 	#plans .card {
 		height: 650px;
@@ -2611,6 +2640,8 @@ ul.wpra-item-list {
 	}
 	.betting h1 {
 		font-size: 68px;
+		position: relative;
+		top: 25vh;
 	}
 	#plans .sunday-btn {
 		position: relative;
@@ -2713,7 +2744,7 @@ ul.wpra-item-list {
 	}
 	.home .betting h1 {
 		position: relative;
-		top: 170px !important;
+		top: 25vh;
 	}
 	#plans .card {
 		height: 650px;
@@ -2745,6 +2776,8 @@ ul.wpra-item-list {
 	}
 	.betting h1 {
 		font-size: 68px;
+		position: relative;
+		top: 25vh;
 	}
 	#plans .card-body ul li {
 		font-size: 20px;
@@ -2829,7 +2862,7 @@ ul.wpra-item-list {
 	}
 	.home .betting h1 {
 		position: relative;
-		top: 180px !important;
+		top: 25vh;
 	}
 	#plans .card {
 		height: 650px;
@@ -2861,6 +2894,8 @@ ul.wpra-item-list {
 	}
 	.betting h1 {
 		font-size: 68px;
+		position: relative;
+		top: 25vh;
 	}
 	#plans .card-body ul li {
 		font-size: 20px;
@@ -2945,7 +2980,7 @@ ul.wpra-item-list {
 	}
 	.home .betting h1 {
 		position: relative;
-		top: 180px !important;
+		top: 25vh;
 	}
 	#plans .card {
 		height: 650px;
@@ -2974,6 +3009,8 @@ ul.wpra-item-list {
 	}
 	.betting h1 {
 		font-size: 68px;
+		position: relative;
+		top: 25vh;
 	}
 
 	.site-footer ul li a {
@@ -3068,7 +3105,7 @@ ul.wpra-item-list {
 	}
 	.home .betting h1 {
 		position: relative;
-		top: 180px !important;
+		top: 25vh;
 	}
 	#plans .card {
 		height: 650px;
@@ -3097,6 +3134,8 @@ ul.wpra-item-list {
 	}
 	.betting h1 {
 		font-size:55px;
+		position: relative;
+		top: 25vh;
 	}
 	.site-footer ul li a {
 		position: relative;
@@ -3185,7 +3224,7 @@ ul.wpra-item-list {
 	}
 	.home .betting h1 {
 		position: relative;
-		top: 130px;
+		top: 25vh;
 	}
 	#plans .card {
 		height: 650px;
@@ -3214,6 +3253,8 @@ ul.wpra-item-list {
 	}
 	.betting h1 {
 		font-size: 48px;
+		position: relative;
+		top: 25vh;
 	}
 	.bg-dark.p-4 {
 		width: 100%;
@@ -3314,7 +3355,7 @@ ul.wpra-item-list {
 	}
 	.home .betting h1 {
 		position: relative;
-		top: 150px;
+		top: 25vh;
 	}
 	#plans .card {
 		height: 650px;
@@ -3355,6 +3396,8 @@ ul.wpra-item-list {
 	}
 	.betting h1 {
 		font-size: 48px;
+		position: relative;
+		top: 25vh;
 	}
 
 	.site-footer ul li a {
@@ -3439,14 +3482,33 @@ ul.wpra-item-list {
 		position: relative !important;
 		right: 253px;
 	}
-	.navbar-nav.three,
-	.navbar-nav.two,
-	.navbar-nav.one,
+	.home .logo.nav-logo {
+		position: relative;
+		right: 1vw;
+	}
+	.page-template-page-about .logo.nav-logo,
+	.page-template-page-contact .logo.nav-logo,
+	.page-template-page-login .logo.nav-logo,
+	.page-template-page-register .logo.nav-logo,
+	.page-template-page-rss .logo.nav-logo {
+		position: relative;
+		right: 12vw;
+	}
 	.home .navbar-nav.three,
 	.home .navbar-nav.two,
 	.home .navbar-nav.one {
 		position: relative;
 		right: 4.5vw;
+	}
+	.navbar-nav.three,
+	.navbar-nav.two,
+	.navbar-nav.one {
+		position: relative;
+		right: 15vw;
+	}
+	.home .betting h1 {
+		position: relative;
+		top: 25vh;
 	}
 	.betting {
 		right: 30px;
@@ -3468,7 +3530,7 @@ ul.wpra-item-list {
 	}
 	#plans .plans-hr {
 		position: relative;
-		left: 31px;
+		left: 30px !important;
 	}
 	#plans .card .card-body ul li {
 		font-size: 20px;
@@ -3476,9 +3538,6 @@ ul.wpra-item-list {
 	.bg-dark.p-4 {
 		width: 100%;
 		top: 70px;
-	}
-	.navbar-brand {
-		display: none !important;
 	}
 	.bg-dark.p-4 .navbar-nav .nav-link {
 		color: white !important;
@@ -3489,7 +3548,7 @@ ul.wpra-item-list {
 	.betting h1 {
 		font-size: 45px;
 		position: relative;
-		top: 120px;
+		top: 25vh;
 	}
 	#privacy-policy-section h1 {
 		font-size: 35px;
@@ -3501,9 +3560,6 @@ ul.wpra-item-list {
 	.site-footer ul li a {
 		text-align: center;
 		right: 30px;
-	}
-	#plans .plans-hr {
-		left: 10%;
 	}
 
 	.panel-title {
@@ -3558,7 +3614,7 @@ ul.wpra-item-list {
 		width: 50%;
 	}
 	.fc-day-header {
-		font-size: 17px !important;
+		font-size: 19px !important;
 		font-weight: 500;
 	}
 	.site-footer ul li a {
@@ -3627,14 +3683,29 @@ ul.wpra-item-list {
 		position: relative !important;
 		right: 240px;
 	}
-	.navbar-nav.three,
-	.navbar-nav.two,
-	.navbar-nav.one,
 	.home .navbar-nav.three,
 	.home .navbar-nav.two,
 	.home .navbar-nav.one {
 		position: relative;
 		right: 4.5vw;
+	}
+	.home .logo.nav-logo {
+		position: relative;
+		right: 1vw;
+	}
+	.navbar-nav.three,
+	.navbar-nav.two,
+	.navbar-nav.one {
+		position: relative;
+		right: 15.5vw;
+	}
+	.page-template-page-about .logo.nav-logo,
+	.page-template-page-contact .logo.nav-logo,
+	.page-template-page-login .logo.nav-logo,
+	.page-template-page-register .logo.nav-logo,
+	.page-template-page-rss .logo.nav-logo {
+		position: relative;
+		right: 12vw;
 	}
 	.betting {
 		right: 30px;
@@ -3665,8 +3736,9 @@ ul.wpra-item-list {
 		width: 100%;
 		top: 70px;
 	}
-	.navbar-brand {
-		display: none !important;
+	.home .betting h1 {
+		position: relative;
+		top: 25vh;
 	}
 	.bg-dark.p-4 .navbar-nav .nav-link {
 		color: white !important;
@@ -3677,12 +3749,7 @@ ul.wpra-item-list {
 	.betting h1 {
 		font-size: 35px;
 		position: relative;
-		top: 150px !important;
-	}
-	.betting h1,
-	.betting p {
-		position: relative;
-		top: 100px;
+		top: 25vh;
 	}
 	nav {
 		margin: 0 !important;
@@ -3827,14 +3894,29 @@ ul.wpra-item-list {
 		position: relative !important;
 		right: 210px;
 	}
-	.navbar-nav.three,
-	.navbar-nav.two,
-	.navbar-nav.one,
 	.home .navbar-nav.three,
 	.home .navbar-nav.two,
 	.home .navbar-nav.one {
 		position: relative;
 		right: 4.5vw;
+	}
+	.home .logo.nav-logo {
+		position: relative;
+		right: 1vw;
+	}
+	.navbar-nav.three,
+	.navbar-nav.two,
+	.navbar-nav.one {
+		position: relative;
+		right: 12.5vw;
+	}
+	.page-template-page-about .logo.nav-logo,
+	.page-template-page-contact .logo.nav-logo,
+	.page-template-page-login .logo.nav-logo,
+	.page-template-page-register .logo.nav-logo,
+	.page-template-page-rss .logo.nav-logo {
+		position: relative;
+		right: 9vw;
 	}
 	.betting {
 		right: 30px;
@@ -3865,8 +3947,10 @@ ul.wpra-item-list {
 		width: 100%;
 		top: 70px;
 	}
-	.navbar-brand {
-		display: none !important;
+	.home .betting h1 {
+		position: relative;
+		top: 25vh;
+		font-size: 50px;
 	}
 	.bg-dark.p-4 .navbar-nav .nav-link {
 		color: white !important;
@@ -3877,7 +3961,7 @@ ul.wpra-item-list {
 	.betting h1 {
 		font-size: 35px;
 		position: relative;
-		top: 150px !important;
+		top: 25vh;
 	}
 	.betting h1,
 	.betting p {
@@ -3997,6 +4081,34 @@ ul.wpra-item-list {
 	.logo.nb {
 		left: 60vw;
 	}
+	.home .logo.nav-logo {
+		position: relative;
+		right: 1vw;
+	}
+	.navbar-nav.three,
+	.navbar-nav.two,
+	.navbar-nav.one {
+		position: relative;
+		right: 12.5vw !important;
+	}
+	.home .navbar-nav.three,
+	.home .navbar-nav.two,
+	.home .navbar-nav.one {
+		position: relative;
+		right: 6.5vw !important;
+	}
+	.page-template-page-about .logo.nav-logo,
+	.page-template-page-contact .logo.nav-logo,
+	.page-template-page-login .logo.nav-logo,
+	.page-template-page-register .logo.nav-logo,
+	.page-template-page-rss .logo.nav-logo {
+		position: relative;
+		right: 7vw;
+	}
+	.home .betting h1 {
+		position: relative;
+		top: 25vh !important;
+	}
 	.navbar-toggler {
 		margin: 0 auto;
 		background: gold !important;
@@ -4044,16 +4156,10 @@ ul.wpra-item-list {
 		font-weight: 600;
 		padding: 10px;
 	}
-	.home .betting h1 {
-		top: 120px;
-	}
 	.betting h1 {
 		font-size: 35px;
-	}
-	.betting h1,
-	.betting p {
 		position: relative;
-		top: 100px;
+		top: 25vh;
 	}
 	#privacy-policy-section h1 {
 		font-size: 30px;
